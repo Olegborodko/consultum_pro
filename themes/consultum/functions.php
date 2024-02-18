@@ -179,3 +179,14 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+/* ------------------ custom ----------------- */
+
+function show_menu_slugs() {
+  $menus = get_terms('nav_menu');
+  echo '<pre>';
+  foreach ($menus as $menu) {
+    echo 'Menu Name: ' . $menu->name . ' | Menu Slug: ' . $menu->slug . '<br>';
+  }
+  echo '</pre>';
+}
+add_action('wp_footer', 'show_menu_slugs');

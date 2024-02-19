@@ -1,9 +1,40 @@
-body, html{
+body,
+html {
   margin: 0;
   padding: 0;
 }
 
-div.custom-containder{
-  max-width: 1952px; // 1920
+div.custom-containder {
+  max-width: 1672px;
   padding: 0 16px;
+  margin: 0 auto;
+}
+
+.consultum-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  color: var(--white, #fff);
+  margin: auto 0;
+
+  .div-3 {
+    align-self: stretch;
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: auto 0;
+    font: 700 26px Work Sans, sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+
+    &:hover {
+      color: #ffffff;
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .consultum-logo img {
+    width: 28px;
+  }
 }

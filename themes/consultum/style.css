@@ -13,16 +13,45 @@ Text Domain: consultum
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 */
 @import "./assets/bootstrap-5.0.2-dist/css/bootstrap.min.css";
-body, html {
+@import "./assets/fonts/worksans/worksans.css";
+body,
+html {
   margin: 0;
   padding: 0;
 }
 
 div.custom-containder {
-  max-width: 1952px;
+  max-width: 1672px;
   padding: 0 16px;
+  margin: 0 auto;
 }
 
+.consultum-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  color: var(--white, #fff);
+  margin: auto 0;
+}
+.consultum-logo .div-3 {
+  align-self: stretch;
+  flex-grow: 1;
+  flex-basis: auto;
+  margin: auto 0;
+  font: 700 26px Work Sans, sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+}
+.consultum-logo .div-3:hover {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 991px) {
+  .consultum-logo img {
+    width: 28px;
+  }
+}
 #masthead section.menu {
   border-radius: 0px 0px 50px 50px;
   backdrop-filter: blur(5px);
@@ -38,14 +67,6 @@ div.custom-containder {
   margin-left: auto;
   margin-right: auto;
 }
-#masthead section.menu .div-2 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 8px;
-  color: var(--white, #fff);
-  margin: auto 0;
-}
 #masthead section.menu .navbar-nav .dropdown-item {
   color: #ffffff;
 }
@@ -55,15 +76,6 @@ div.custom-containder {
   object-position: center;
   width: 39px;
   align-self: stretch;
-}
-#masthead section.menu .div-3 {
-  align-self: stretch;
-  flex-grow: 1;
-  flex-basis: auto;
-  margin: auto 0;
-  font: 700 26px Work Sans, sans-serif;
-  text-decoration: none;
-  color: #ffffff;
 }
 #masthead section.menu .div-4 {
   align-self: stretch;
@@ -125,9 +137,6 @@ div.custom-containder {
 #masthead section.menu .navbar-toggler {
   background: #ffffff;
 }
-#masthead section.menu .div-3:hover {
-  color: #ffffff;
-}
 @media screen and (max-width: 991px) {
   #masthead section.menu {
     flex-direction: column;
@@ -155,5 +164,175 @@ div.custom-containder {
   #masthead section.menu .navbar-toggler[aria-expanded=true] {
     position: relative;
     left: 20px;
+  }
+}
+
+footer.site-footer {
+  background-color: #B8DFF0;
+  padding-top: 10px;
+}
+footer.site-footer .top {
+  padding-bottom: 10px;
+}
+footer.site-footer .phone-block {
+  max-width: 302px;
+  justify-content: space-between;
+  border-radius: 100px;
+  background-color: var(--white, #fff);
+  display: flex;
+  gap: 10px;
+  font-size: 24px;
+  color: var(--fiolet-primary, #6373b5);
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.96px;
+}
+footer.site-footer .phone-block .phone-text {
+  text-align: left;
+  font-family: Work Sans, sans-serif;
+  flex-grow: 1;
+  flex-basis: auto;
+  margin: auto 0;
+  white-space: nowrap;
+  padding-right: 26px;
+}
+footer.site-footer .phone-block .img {
+  aspect-ratio: 1;
+  object-fit: auto;
+  object-position: center;
+  width: 64px;
+}
+footer.site-footer .social {
+  display: flex;
+  margin-top: 69px;
+  gap: 30px;
+}
+footer.site-footer .social .img {
+  aspect-ratio: 1;
+  object-fit: auto;
+  object-position: center;
+  width: 64px;
+  border-radius: 50%;
+}
+footer.site-footer .footer-menu {
+  list-style-type: none;
+  padding: 0;
+}
+footer.site-footer .footer-menu a {
+  display: inline-block;
+  text-decoration: none;
+  font: 500 18px Work Sans, sans-serif;
+  color: #666B81;
+  padding-bottom: 22px;
+}
+footer.site-footer .footer-menu li:last-child a {
+  padding-bottom: 0;
+}
+footer.site-footer .industry-title {
+  font: 500 24px Work Sans, sans-serif;
+  font-style: italic;
+  padding-bottom: 22px;
+}
+footer.site-footer .menu-footer_4-container {
+  padding-top: 48px;
+}
+footer.site-footer .col:first-child {
+  min-width: 416px;
+  padding-right: 100px;
+}
+footer.site-footer .col {
+  padding-top: 35px;
+  min-width: 245px;
+}
+@media screen and (max-width: 1400px) {
+  footer.site-footer .menu-footer_4-container {
+    padding-top: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  footer.site-footer .col:first-child {
+    padding-right: 16px;
+    min-width: initial;
+  }
+  footer.site-footer .phone-block {
+    margin: 0 auto;
+  }
+  footer.site-footer .social {
+    display: flex;
+    justify-content: center;
+  }
+}
+footer.site-footer .center {
+  background-color: #080C1B;
+}
+footer.site-footer .buttom {
+  background-color: #B8DFF0;
+  min-height: 50px;
+  color: rgba(99, 115, 181, 0.5607843137);
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer.site-footer .buttom span {
+  display: inline-block;
+  padding-right: 14px;
+}
+footer.site-footer .center-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer.site-footer .center-block .subscribe-block {
+  display: flex;
+  align-items: center;
+}
+footer.site-footer .center-block .subscribe-block .title {
+  color: #B8DFF0;
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: left;
+  margin-right: 40px;
+}
+footer.site-footer .center-block .subscribe-block .subscribe-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 40px 24px 40px;
+  border-radius: 100px;
+  background: #6373B5;
+  color: #ffffff;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 4%;
+  text-align: center;
+  text-transform: uppercase;
+}
+footer.site-footer .center-block .consultum-logo {
+  padding: 38px 0;
+}
+@media screen and (max-width: 900px) {
+  footer.site-footer .center-block {
+    flex-direction: column;
+  }
+  footer.site-footer .subscribe-block {
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 460px) {
+  footer.site-footer .subscribe-block {
+    flex-direction: column;
+  }
+  footer.site-footer .subscribe-block .title {
+    padding-bottom: 20px;
   }
 }

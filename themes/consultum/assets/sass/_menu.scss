@@ -13,15 +13,6 @@
   margin-left: auto;
   margin-right: auto;
 
-  .div-2 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 8px;
-    color: var(--white, #fff);
-    margin: auto 0;
-  }
-
   .navbar-nav .dropdown-item {
     color: #ffffff;
   }
@@ -32,16 +23,6 @@
     object-position: center;
     width: 39px;
     align-self: stretch;
-  }
-
-  .div-3 {
-    align-self: stretch;
-    flex-grow: 1;
-    flex-basis: auto;
-    margin: auto 0;
-    font: 700 26px Work Sans, sans-serif;
-    text-decoration: none;
-    color: #ffffff;
   }
 
   .div-4 {
@@ -113,10 +94,6 @@
 
   .navbar-toggler {
     background: #ffffff;
-  }
-
-  .div-3:hover {
-    color: #ffffff;
   }
 
   @media screen and (max-width: 991px) {

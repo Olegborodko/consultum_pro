@@ -7,10 +7,7 @@ $index = 0;
 ?>
 
 <section class="menu">
-  <div class="consultum-logo">
-    <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/img/lamp.svg" class="img" alt="logo" />
-    <a href="<?= esc_url(home_url('/')); ?>" class="div-3">ConsultumPro</a>
-  </div>
+  <?php el_consultum_logo(); ?>
   <div class="div-4">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">

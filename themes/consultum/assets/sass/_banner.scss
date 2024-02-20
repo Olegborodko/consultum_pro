@@ -1,0 +1,124 @@
+section.banner {
+  background-image: url("./assets/img/hero_section.jpg");
+  background-size: cover;
+  background-position: top;
+  border-radius: 0 0 70px 70px;
+  padding-bottom: 85px;
+
+  .text {
+    position: relative;
+    padding: 328px 16px 173px;
+    margin: 0 auto;
+    text-align: left;
+
+    color: #ffffff;
+    font-family: Work Sans;
+    font-size: 100px;
+    font-weight: 500;
+    line-height: 120%;
+    max-width: 933px;
+
+    span {
+      background-color: #B8DFF0;
+      border-radius: 50px;
+      color: #6373b5;
+      font-style: italic;
+      padding: 0 30px 0 10px;
+      line-height: 113px;
+      display: inline-block;
+    }
+  }
+
+  .el-lets-start {
+    position: absolute;
+    right: 0;
+    top: 350px;
+    line-height: 0;
+  }
+
+  .buttom-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .google-r-block {
+
+    span {
+      color: rgb(255, 255, 255);
+      font-family: Work Sans;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 100%;
+      letter-spacing: 0px;
+      text-align: left;
+      padding-right: 10px;
+    }
+
+    .stars {
+      width: 90px;
+      position: relative;
+      top: -1px;
+    }
+  }
+
+  .reviews-block,
+  .trustpilot-block {
+
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: left;
+
+    span {
+      padding-top: 10px;
+      display: inline-block;
+    }
+  }
+
+  .excellent-block {
+
+    span {
+      color: rgb(255, 255, 255);
+      font-family: Work Sans;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 100%;
+      letter-spacing: 0px;
+      text-align: left;
+      display: inline-block;
+      padding-bottom: 8px;
+    }
+  }
+
+  @media screen and (max-width: 980px) {
+    .el-lets-start {
+      top: 150px;
+      right: 20px;
+    }
+
+    .text {
+      padding: 264px 16px 90px;
+    }
+  }
+
+  @media screen and (max-width: 510px) {
+    .el-lets-start {
+      top: 150px;
+    }
+
+    .text {
+      font-size: 50px;
+
+      span {
+        padding: 0 10px 0 10px;
+        line-height: 50px;
+      }
+    }
+  }
+}

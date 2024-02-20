@@ -9,6 +9,10 @@
  * @package consultum
  */
 
+require_once get_template_directory() . "/elements/consultum_logo/index.php";
+require_once get_template_directory() . "/elements/social/index.php";
+require_once get_template_directory() . "/elements/lets_start/index.php";
+require_once get_template_directory() . "/elements/phone/index.php";
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>

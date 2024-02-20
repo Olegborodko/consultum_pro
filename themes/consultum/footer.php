@@ -13,15 +13,8 @@ $img_src = get_template_directory_uri() . "/assets/img/";
     <div class="custom-containder">
       <div class="row">
         <div class="col">
-          <div class="phone-block">
-            <img loading="lazy" src="<?= $img_src ?>/phone.svg" class="img" alt="phone icon" />
-            <div class="phone-text">(332) 877-9148</div>
-          </div>
-          <div class="social">
-            <a href=""><img loading="lazy" src="<?= $img_src ?>/linked.png" class="img" /></a>
-            <a href=""><img loading="lazy" src="<?= $img_src ?>/fb.png" class="img" /></a>
-            <a href=""><img loading="lazy" src="<?= $img_src ?>/inst.png" class="img" /></a>
-          </div>
+          <?php el_phone_block(); ?>
+          <?php el_social(); ?>
         </div>
         <div class="col">
           <?php
@@ -81,14 +74,10 @@ $img_src = get_template_directory_uri() . "/assets/img/";
   </div>
   <div class="center">
     <div class="custom-containder center-block">
-      <div class="consultum-logo">
-        <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/img/lamp.svg" class="img"
-          alt="logo" />
-        <a href="<?= esc_url(home_url('/')); ?>" class="div-3">ConsultumPro</a>
-      </div>
+      <?php el_consultum_logo(); ?>
       <div class="subscribe-block">
         <div class="title">Subscribe to news!</div>
-        <div class="subscribe-btn">Subscribe</div>
+        <a href="" class="subscribe-btn">Subscribe</a>
       </div>
     </div>
   </div>

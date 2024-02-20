@@ -6,51 +6,8 @@ footer.site-footer {
     padding-bottom: 10px;
   }
 
-  .phone-block {
-    max-width: 302px;
-    justify-content: space-between;
-    border-radius: 100px;
-    background-color: var(--white, #fff);
-    display: flex;
-    gap: 10px;
-    font-size: 24px;
-    color: var(--fiolet-primary, #6373b5);
-    font-weight: 600;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 0.96px;
-
-    .phone-text {
-      text-align: left;
-      font-family: Work Sans, sans-serif;
-      flex-grow: 1;
-      flex-basis: auto;
-      margin: auto 0;
-      white-space: nowrap;
-      padding-right: 26px;
-    }
-
-    .img {
-      aspect-ratio: 1;
-      object-fit: auto;
-      object-position: center;
-      width: 64px;
-    }
-  }
-
-
-  .social {
-    display: flex;
+  .el-social {
     margin-top: 69px;
-    gap: 30px;
-
-    .img {
-      aspect-ratio: 1;
-      object-fit: auto;
-      object-position: center;
-      width: 64px;
-      border-radius: 50%;
-    }
   }
 
   .footer-menu {
@@ -102,11 +59,11 @@ footer.site-footer {
       min-width: initial;
     }
 
-    .phone-block {
+    .el-phone-block {
       margin: 0 auto;
     }
 
-    .social {
+    .el-social {
       display: flex;
       justify-content: center;
     }
@@ -169,10 +126,11 @@ footer.site-footer {
         letter-spacing: 4%;
         text-align: center;
         text-transform: uppercase;
+        text-decoration: none;
       }
     }
 
-    .consultum-logo {
+    .el-consultum-logo {
       padding: 38px 0;
     }
   }

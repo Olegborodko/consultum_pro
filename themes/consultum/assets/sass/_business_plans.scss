@@ -1,0 +1,60 @@
+section.business-plans {
+  background-color: #EBECF2;
+
+  h2 {
+    padding-top: 80px;
+    padding-bottom: 70px;
+    font-family: Work Sans;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+
+    span {
+      color: #6373B5;
+      font-style: italic;
+    }
+  }
+
+  .business-plans-block {
+    background-image: url("./assets/img/smiling-woman-with-flag.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding-bottom: 74px;
+  }
+
+  .box {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    align-items: flex-start;
+    gap: 30px;
+
+    .box-plan {
+      gap: 30px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    a {
+      text-decoration: none;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.6);
+      padding: 40px;
+      color: rgb(8, 12, 27);
+      font-family: Work Sans;
+      font-size: 38px;
+      font-weight: 600;
+      line-height: 120%;
+      letter-spacing: 0%;
+      text-align: left;
+      width: 100%;
+      max-width: 524px;
+
+      &:hover {
+        color: #6373B5;
+      }
+    }
+  }
+}

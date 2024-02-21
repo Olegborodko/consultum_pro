@@ -85,6 +85,23 @@ $img_src = get_template_directory_uri() . "/assets/img/";
     ?>
   </div>
 </section>
+<section class="business-plans">
+  <div class="custom-containder business-plans-block">
+    <h2>Business plans by <span>Visa Types</span></h2>
+    <div class="box">
+      <div class="box-plan">
+        <a href="#">EB-1 Business Plan</a>
+        <a href="#">E2 Treaty Investor Visa Business Plan</a>
+        <a href="#">EB-2 NIW Business Plan</a>
+      </div>
+      <div class="box-plan">
+        <a href="#">E1 Treaty Trader Visa Business Plan</a>
+        <a href="#">L1 Visa Business Plan</a>
+        <a href="#">EB-5 Business Plan</a>
+      </div>
+    </div>
+  </div>
+</section>
 
 <?php
 get_footer();

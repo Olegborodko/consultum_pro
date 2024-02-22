@@ -102,6 +102,69 @@ $img_src = get_template_directory_uri() . "/assets/img/";
     </div>
   </div>
 </section>
+<section class="industry-plans">
+  <div class="custom-containder">
+    <h2>Our Business Plans by <span>Industry</span></h2>
+    <div class="industry-plans-block">
+      <?php el_industry_box(
+        "Cannabis business plan",
+        "Our Cannabis business plan model covers all aspects needed for fundraising and getting a license.",
+        "#",
+        "image_industry.png"
+      );
+      ?>
+      <?php el_industry_box(
+        "Cannabis business plan",
+        "Our Cannabis business plan model covers all aspects needed for fundraising and getting a license.",
+        "#",
+        "image_industry.png"
+      );
+      ?>
+      <?php el_industry_box(
+        "Cannabis business plan",
+        "Our Cannabis business plan model covers all aspects needed for fundraising and getting a license.",
+        "#",
+        "image_industry.png"
+      );
+      ?>
+      <?php el_industry_box(
+        "Cannabis business plan",
+        "Our Cannabis business plan model covers all aspects needed for fundraising and getting a license.",
+        "#",
+        "image_industry.png"
+      );
+      ?>
+      <?php el_industry_box(
+        "Cannabis business plan",
+        "Our Cannabis business plan model covers all aspects needed for fundraising and getting a license.",
+        "#",
+        "image_industry.png"
+      );
+      ?>
+      <?php el_industry_box(
+        "Cannabis business plan",
+        "Our Cannabis business plan model covers all aspects needed for fundraising and getting a license.",
+        "#",
+        "image_industry.png"
+      );
+      ?>
+      <?php el_industry_box(
+        "Cannabis business plan",
+        "Our Cannabis business plan model covers all aspects needed for fundraising and getting a license.",
+        "#",
+        "image_industry.png"
+      );
+      ?>
+      <?php el_industry_box(
+        "Cannabis business plan",
+        "Our Cannabis business plan model covers all aspects needed for fundraising and getting a license.",
+        "#",
+        "image_industry.png"
+      );
+      ?>
+    </div>
+  </div>
+</section>
 
 <?php
 get_footer();

@@ -371,6 +371,26 @@ section.business-plans .box a:hover {
   color: #6373B5;
 }
 
+section.industry-plans .industry-plans-block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-bottom: 80px;
+}
+section.industry-plans h2 {
+  padding: 80px 0 60px;
+  font-family: Work Sans;
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+section.industry-plans h2 span {
+  color: #526498;
+  font-style: italic;
+}
+
 .el-consultum-logo {
   display: flex;
   align-items: center;
@@ -538,6 +558,84 @@ section.business-plans .box a:hover {
   font-weight: 400;
   flex-grow: 1;
   flex-basis: auto;
+}
+
+.el-industry-box {
+  background-size: cover;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 395px;
+  border-radius: 40px;
+  padding: 40px 25px 54px 20px;
+}
+.el-industry-box:hover:before {
+  display: none;
+}
+.el-industry-box:hover .div-3,
+.el-industry-box:hover .div-4 {
+  color: #ffffff;
+}
+.el-industry-box:hover .img-2 {
+  background-image: url("./assets/img/industry_arrow_bottom.svg");
+}
+.el-industry-box:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  background-color: #B8DFF0;
+}
+.el-industry-box .img-2 {
+  background-image: url("./assets/img/industry_arrow_top.svg");
+  background-repeat: no-repeat;
+  min-width: 70px;
+  height: 70px;
+}
+.el-industry-box .img {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.el-industry-box .div-2 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  padding: 0 2px;
+}
+.el-industry-box .div-3 {
+  font-family: Work Sans, sans-serif;
+  margin-top: 11px;
+  color: #080C1B;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.el-industry-box .div-4 {
+  position: relative;
+  margin-top: 40px;
+  font: 400 20px/32px Work Sans, sans-serif;
+  color: #080C1B;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
 }
 
 footer.site-footer {

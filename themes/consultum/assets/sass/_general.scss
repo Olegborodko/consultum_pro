@@ -9,3 +9,35 @@ div.custom-containder {
   padding: 0 16px;
   margin: 0 auto;
 }
+
+.g-arrow-right-top {
+  background-image: url("./assets/img/industry_arrow_top.svg");
+  background-repeat: no-repeat;
+  min-width: 70px;
+  height: 70px;
+}
+
+.g-arrow-left-top {
+  background-image: url("./assets/img/industry_arrow_top.svg");
+  background-repeat: no-repeat;
+  transform: scale(-1, 1);
+  min-width: 70px;
+  height: 70px;
+}
+
+.g-arrow-right-top-hover{
+  &:hover {
+    .g-arrow-right-top{
+      background-image: url("./assets/img/industry_arrow_bottom.svg");
+    }
+  }
+}
+
+.g-arrow-left-top-hover{
+  &:hover {
+    .g-arrow-left-top{
+      background-image: url("./assets/img/industry_arrow_bottom.svg");
+      transform: scale(-1, 1);
+    }
+  }
+}

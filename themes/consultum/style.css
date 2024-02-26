@@ -28,6 +28,30 @@ div.custom-containder {
   margin: 0 auto;
 }
 
+.g-arrow-right-top {
+  background-image: url("./assets/img/industry_arrow_top.svg");
+  background-repeat: no-repeat;
+  min-width: 70px;
+  height: 70px;
+}
+
+.g-arrow-left-top {
+  background-image: url("./assets/img/industry_arrow_top.svg");
+  background-repeat: no-repeat;
+  transform: scale(-1, 1);
+  min-width: 70px;
+  height: 70px;
+}
+
+.g-arrow-right-top-hover:hover .g-arrow-right-top {
+  background-image: url("./assets/img/industry_arrow_bottom.svg");
+}
+
+.g-arrow-left-top-hover:hover .g-arrow-left-top {
+  background-image: url("./assets/img/industry_arrow_bottom.svg");
+  transform: scale(-1, 1);
+}
+
 #masthead section.menu {
   z-index: 1000;
   border-radius: 0px 0px 50px 50px;
@@ -376,6 +400,7 @@ section.industry-plans .industry-plans-block {
   flex-wrap: wrap;
   gap: 20px;
   padding-bottom: 80px;
+  justify-content: center;
 }
 section.industry-plans h2 {
   padding: 80px 0 60px;
@@ -389,6 +414,128 @@ section.industry-plans h2 {
 section.industry-plans h2 span {
   color: #526498;
   font-style: italic;
+}
+
+section.immigration-busines {
+  padding: 80px 16px 5px;
+  background-color: #EBECF2;
+}
+section.immigration-busines .g-arrow-left-top {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+section.immigration-busines h2 {
+  font-family: Work Sans;
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+  max-width: 996px;
+  margin: 0 auto;
+}
+section.immigration-busines h2 span {
+  background-color: #B8DFF0;
+  border-radius: 50px;
+  color: #6373b5;
+  font-style: italic;
+  display: inline-block;
+  padding: 0 30px 0 10px;
+  line-height: 91px;
+}
+section.immigration-busines .immigration-block {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  align-items: end;
+  position: relative;
+  top: -85px;
+  flex-wrap: wrap;
+}
+section.immigration-busines .i-box {
+  color: #080C1B;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  width: 534px;
+  height: 728px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 40px;
+}
+section.immigration-busines .i-box:first-child {
+  background-image: url("./assets/img/immigration1.png");
+}
+section.immigration-busines .i-box:nth-child(2) {
+  background-image: url("./assets/img/immigration2.png");
+}
+section.immigration-busines .i-box:nth-child(3) {
+  background-image: url("./assets/img/immigration3.png");
+}
+section.immigration-busines .i-box:hover {
+  -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.4);
+}
+section.immigration-busines .i-box .title {
+  position: relative;
+  backdrop-filter: blur(5px);
+  border-radius: 40px 40px 20px 20px;
+  padding: 46px 16px;
+}
+section.immigration-busines .i-box .title:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  background-color: #ffffff;
+  border-radius: 40px 40px 20px 20px;
+}
+section.immigration-busines .i-box .title div {
+  position: relative;
+}
+section.immigration-busines .i-box-small {
+  height: 593px;
+}
+@media screen and (max-width: 1680px) {
+  section.immigration-busines .i-box {
+    width: 440px;
+  }
+  section.immigration-busines h2 {
+    max-width: 1130px;
+  }
+  section.immigration-busines .immigration-block {
+    top: -80px;
+  }
+}
+@media screen and (max-width: 1390px) {
+  section.immigration-busines h2 {
+    max-width: 100%;
+  }
+  section.immigration-busines .i-box-small {
+    height: 728px;
+  }
+  section.immigration-busines .immigration-block {
+    top: initial;
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
+}
+@media screen and (max-width: 560px) {
+  section.immigration-busines h2 {
+    font-size: 50px;
+  }
 }
 
 .el-consultum-logo {

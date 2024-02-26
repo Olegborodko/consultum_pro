@@ -1,0 +1,145 @@
+section.immigration-busines {
+  padding: 80px 16px 5px;
+  background-color: #EBECF2;
+
+  .g-arrow-left-top {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+  }
+
+  h2 {
+    font-family: Work Sans;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    max-width: 996px;
+    margin: 0 auto;
+
+    span {
+      background-color: #B8DFF0;
+      border-radius: 50px;
+      color: #6373b5;
+      font-style: italic;
+      display: inline-block;
+      padding: 0 30px 0 10px;
+      line-height: 91px;
+    }
+  }
+
+  .immigration-block {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    align-items: end;
+    position: relative;
+    top: -85px;
+    flex-wrap: wrap;
+  }
+
+  .i-box {
+    color: #080C1B;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+
+    width: 534px;
+    height: 728px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-radius: 40px;
+
+    &:first-child {
+      background-image: url("./assets/img/immigration1.png");
+    }
+
+    &:nth-child(2) {
+      background-image: url("./assets/img/immigration2.png");
+    }
+
+    &:nth-child(3) {
+      background-image: url("./assets/img/immigration3.png");
+    }
+
+    &:hover {
+      -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.4);
+      -moz-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.4);
+      box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.4);
+    }
+
+    .title {
+      position: relative;
+      backdrop-filter: blur(5px);
+      border-radius: 40px 40px 20px 20px;
+
+      &:before {
+        content: " ";
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.7;
+        background-color: #ffffff;
+        border-radius: 40px 40px 20px 20px;
+      }
+
+      div {
+        position: relative;
+      }
+
+      padding: 46px 16px;
+    }
+  }
+
+  .i-box-small {
+    height: 593px;
+  }
+
+  @media screen and (max-width: 1680px) {
+    .i-box {
+      width: 440px;
+    }
+
+    h2 {
+      max-width: 1130px;
+    }
+
+    .immigration-block {
+      top: -80px;
+    }
+  }
+
+  @media screen and (max-width: 1390px) {
+    h2 {
+      max-width: 100%;
+    }
+
+    .i-box-small {
+      height: 728px;
+    }
+
+    .immigration-block {
+      top: initial;
+      padding-top: 50px;
+      padding-bottom: 80px;
+    }
+  }
+
+  @media screen and (max-width: 560px) {
+    h2 {
+      font-size: 50px;
+    }
+  }
+}

@@ -835,6 +835,90 @@ section.testimonials .testimonials-part-2 {
   }
 }
 
+section.frequently-asked {
+  padding-top: 80px;
+}
+section.frequently-asked .inside-block {
+  display: flex;
+}
+section.frequently-asked .desc,
+section.frequently-asked .faq {
+  flex: 1;
+}
+section.frequently-asked .desc h2 {
+  color: rgb(0, 0, 0);
+  font-family: Work Sans, sans-serif;
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-bottom: 60px;
+}
+section.frequently-asked .desc {
+  position: relative;
+  height: 840px;
+}
+section.frequently-asked .desc img {
+  position: absolute;
+  left: -140px;
+}
+section.frequently-asked .faq .accordion-button {
+  padding: 40px 40px 30px;
+}
+section.frequently-asked .faq .accordion-body {
+  padding: 0 40px 40px;
+}
+section.frequently-asked .faq .accordion-item {
+  box-sizing: border-box;
+  border: 1px solid rgb(235, 236, 242);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.6);
+  margin-bottom: 20px;
+}
+section.frequently-asked .faq .accordion-button {
+  background-color: #E5F3FA;
+  color: rgb(8, 12, 27);
+  font-family: Work Sans, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+section.frequently-asked .faq .accordion-button::after {
+  background-image: url("./assets/img/plus.png");
+  transform: scale(0.7) !important;
+}
+section.frequently-asked .faq .accordion-button:not(.collapsed) {
+  background-color: initial;
+  box-shadow: initial;
+}
+section.frequently-asked .faq .accordion-button:not(.collapsed)::after {
+  background-image: url("./assets/img/minus.png");
+}
+@media screen and (max-width: 1450px) {
+  section.frequently-asked .inside-block {
+    flex-direction: column;
+  }
+  section.frequently-asked .desc {
+    height: initial;
+    padding-bottom: 50px;
+  }
+  section.frequently-asked .desc img {
+    position: relative;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  section.frequently-asked .desc img {
+    left: 0;
+  }
+  section.frequently-asked .desc h2 {
+    font-size: 48px;
+  }
+}
+
 .el-consultum-logo {
   display: flex;
   align-items: center;
@@ -954,7 +1038,7 @@ section.testimonials .testimonials-part-2 {
   line-height: 100%;
 }
 .el-box-review .img {
-  width: 100%;
+  width: 92px;
   flex: 1;
 }
 .el-box-review .div-3 {

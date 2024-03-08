@@ -281,6 +281,64 @@ $img_src = get_template_directory_uri() . "/assets/img/";
     </div>
   </div>
 </section>
+<section class="frequently-asked">
+  <div class="custom-containder inside-block">
+    <div class="desc">
+      <h2>Frequently Asked Questions</h2>
+      <img src="<?= $img_src ?>/faq.png" alt="faq" />
+    </div>
+    <div class="faq">
+      <?php
+      $faq_data = array();
+      $faq_data[0]['title'] = 'How do i create an online business plan?';
+      $faq_data[0]['text'] = 'Utilize online tools, templates, and guides for crafting a business plan on the web, or enlist the services of our skilled team at ConsultumPro. Our expert business plan writers will leverage their experience, knowledge, and abilities to develop a personalized and professional online business plan tailored specifically for your needs.';
+
+      $faq_data[1]['title'] = 'What is the best format for a business plan?';
+      $faq_data[1]['text'] = 'text';
+
+      $faq_data[2]['title'] = 'What is the typical timeframe for creating a comprehensive business plan, and how do you organize the work process?';
+      $faq_data[2]['text'] = 'text';
+
+      $faq_data[3]['title'] = 'How can your company assist me in developing an effective business plan for my venture?';
+      $faq_data[3]['text'] = 'text';
+      ?>
+
+      <div class="accordion" id="accordionExample">
+        <?php
+        $uniqueId = uniqid();
+        $expanded = true;
+
+        foreach ($faq_data as $key => $value) {
+          ?>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo<?= $key ?><?= $uniqueId ?>">
+              <button class="accordion-button <?php echo $expanded ? '' : 'collapsed' ?>" type="button"
+                data-bs-toggle="collapse" data-bs-target="#collapseTwo<?= $key ?><?= $uniqueId ?>"
+                aria-expanded="<?php echo $expanded ? 'true' : 'false' ?>"
+                aria-controls="collapseTwo<?= $key ?><?= $uniqueId ?>">
+                <?= $value['title'] ?>
+              </button>
+            </h2>
+            <div id="collapseTwo<?= $key ?><?= $uniqueId ?>"
+              class="accordion-collapse collapse <?php echo $expanded ? 'show' : '' ?>"
+              aria-labelledby="headingTwo<?= $key ?><?= $uniqueId ?>" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <?= $value['text'] ?>
+              </div>
+            </div>
+          </div>
+
+
+          <?php
+          $expanded = false;
+        }
+        ?>
+
+      </div>
+    </div>
+  </div>
+</section>
 
 <?php
 get_footer();

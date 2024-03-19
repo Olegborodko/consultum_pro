@@ -1,16 +1,16 @@
 .el-phone-block {
-  max-width: 302px;
+  max-width: 19.026rem;
   justify-content: space-between;
-  border-radius: 100px;
+  border-radius: 6.3rem;
   background-color: var(--white, #fff);
   display: flex;
-  gap: 10px;
-  font-size: 24px;
+  gap: 0.63rem;
+  font-size: 1.512rem;
   color: var(--fiolet-primary, #6373b5);
   font-weight: 600;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 0.96px;
+  letter-spacing: 0.06048rem;
 
   .phone-text {
     text-align: left;
@@ -19,13 +19,13 @@
     flex-basis: auto;
     margin: auto 0;
     white-space: nowrap;
-    padding-right: 26px;
+    padding-right: 1.638rem;
   }
 
   .img {
     aspect-ratio: 1;
     object-fit: auto;
     object-position: center;
-    width: 64px;
+    width: 4.032rem;
   }
 }

@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 8px;
+  gap: 0.504rem;
   color: var(--white, #fff);
   margin: auto 0;
 
@@ -11,7 +11,7 @@
     flex-grow: 1;
     flex-basis: auto;
     margin: auto 0;
-    font: 700 26px Work Sans, sans-serif;
+    font: 700 1.638rem Work Sans, sans-serif;
     text-decoration: none;
     color: #ffffff;
 
@@ -21,8 +21,8 @@
   }
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 991px) { //991
   .el-consultum-logo img {
-    width: 28px;
+    width: 1.764rem;
   }
 }

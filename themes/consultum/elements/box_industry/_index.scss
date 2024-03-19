@@ -27,8 +27,8 @@
   .img-2{
     background-image: url("./assets/img/industry_arrow_top.svg");
     background-repeat: no-repeat;
-    min-width: 70px;
-    height: 70px;
+    min-width: 4.41rem;
+    height: 4.41rem;
   }
 
   background-size: cover;
@@ -39,9 +39,9 @@
   position: relative;
   display: flex;
   width: 100%;
-  max-width: 395px;
-  border-radius: 40px;
-  padding: 40px 25px 54px 20px;
+  max-width: 24.885rem;
+  border-radius: 2.52rem;
+  padding: 2.52rem 1.575rem 3.402rem 1.26rem;
 
   .img {
     position: absolute;
@@ -56,18 +56,18 @@
     position: relative;
     display: flex;
     justify-content: space-between;
-    gap: 20px;
-    font-size: 32px;
+    gap: 1.26rem;
+    font-size: 2.016rem;
     font-weight: 600;
-    line-height: 38px;
-    padding: 0 2px;
+    line-height: 2.394rem;
+    padding: 0 0.126rem;
   }
 
   .div-3 {
     font-family: Work Sans, sans-serif;
-    margin-top: 11px;
+    margin-top: 0.693rem;
     color: #080C1B;
-    font-size: 32px;
+    font-size: 2.016rem;
     font-weight: 600;
     line-height: 120%;
     letter-spacing: 0%;
@@ -76,8 +76,8 @@
 
   .div-4 {
     position: relative;
-    margin-top: 40px;
-    font: 400 20px/32px Work Sans, sans-serif;
+    margin-top: 2.52rem;
+    font: 400 1.26rem/2.016rem Work Sans, sans-serif;
     color: #080C1B;
     line-height: 160%;
     letter-spacing: 0%;

@@ -20,7 +20,7 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 8px;
+  gap: 0.504rem;
   color: var(--white, #fff);
   margin: auto 0;
 }
@@ -29,7 +29,7 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
   flex-grow: 1;
   flex-basis: auto;
   margin: auto 0;
-  font: 700 26px Work Sans, sans-serif;
+  font: 700 1.638rem Work Sans, sans-serif;
   text-decoration: none;
   color: #ffffff;
 }
@@ -39,36 +39,36 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 
 @media screen and (max-width: 991px) {
   .el-consultum-logo img {
-    width: 28px;
+    width: 1.764rem;
   }
 }
 .el-social {
   display: flex;
-  gap: 30px;
+  gap: 1.89rem;
 }
 .el-social .img {
   aspect-ratio: 1;
   object-fit: auto;
   object-position: center;
-  width: 64px;
+  width: 4.032rem;
   border-radius: 50%;
 }
 
 .el-lets-start {
-  border-radius: 200px;
-  box-shadow: 0px 10px 45px 0px rgba(99, 115, 181, 0.25);
-  backdrop-filter: blur(10px);
+  border-radius: 12.6rem;
+  box-shadow: 0rem 0.63rem 2.835rem 0rem rgba(99, 115, 181, 0.25);
+  backdrop-filter: blur(0.63rem);
   background-color: var(--white, #fff);
   display: flex;
   justify-content: space-between;
-  gap: 20px;
-  font-size: 24px;
+  gap: 1.26rem;
+  font-size: 1.512rem;
   color: var(--fiolet-primary, #6373b5);
   font-weight: 600;
   text-align: center;
   text-transform: uppercase;
-  padding: 10px 10px 10px 25px;
-  width: 288px;
+  padding: 0.63rem 0.63rem 0.63rem 1.575rem;
+  width: 18.144rem;
   text-decoration: none;
   line-height: 0;
 }
@@ -82,22 +82,22 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
   aspect-ratio: 1;
   object-fit: auto;
   object-position: center;
-  width: 70px;
+  width: 4.41rem;
 }
 
 .el-phone-block {
-  max-width: 302px;
+  max-width: 19.026rem;
   justify-content: space-between;
-  border-radius: 100px;
+  border-radius: 6.3rem;
   background-color: var(--white, #fff);
   display: flex;
-  gap: 10px;
-  font-size: 24px;
+  gap: 0.63rem;
+  font-size: 1.512rem;
   color: var(--fiolet-primary, #6373b5);
   font-weight: 600;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 0.96px;
+  letter-spacing: 0.06048rem;
 }
 .el-phone-block .phone-text {
   text-align: left;
@@ -106,68 +106,68 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
   flex-basis: auto;
   margin: auto 0;
   white-space: nowrap;
-  padding-right: 26px;
+  padding-right: 1.638rem;
 }
 .el-phone-block .img {
   aspect-ratio: 1;
   object-fit: auto;
   object-position: center;
-  width: 64px;
+  width: 4.032rem;
 }
 
 .el-box-review {
   display: flex;
-  max-width: 240px;
+  max-width: 15.12rem;
   flex-direction: column;
-  font-size: 14px;
-  line-height: 22px;
-  padding: 20px 0;
-  margin: 0 16px;
+  font-size: 0.882rem;
+  line-height: 1.386rem;
+  padding: 1.26rem 0;
+  margin: 0 1.008rem;
 }
 .el-box-review .div-2 {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  gap: 14px;
+  gap: 0.882rem;
   color: #1a202c;
   font-weight: 400;
   white-space: nowrap;
   line-height: 100%;
 }
 .el-box-review .img {
-  width: 92px;
+  width: 5.796rem;
   flex: 1;
 }
 .el-box-review .div-3 {
   display: flex;
-  gap: 4px;
+  gap: 0.252rem;
   margin: auto 0;
-  padding: 0 20px;
+  padding: 0 1.26rem;
 }
 .el-box-review .img-2 {
-  width: 11px;
+  width: 0.693rem;
 }
 .el-box-review .div-4 {
   font-family: Poppins, sans-serif;
 }
 .el-box-review .div-5 {
   color: #080c1b;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  margin-top: 15px;
+  text-shadow: 0rem 0.252rem 0.252rem rgba(0, 0, 0, 0.25);
+  margin-top: 0.945rem;
   width: 100%;
-  font: 700 18px Poppins, sans-serif;
+  font: 700 1.134rem Poppins, sans-serif;
 }
 .el-box-review .div-6 {
   color: #666b81;
-  margin-top: 10px;
+  margin-top: 0.63rem;
   width: 100%;
-  font: 400 16px Work Sans, sans-serif;
+  font: 400 1.008rem Work Sans, sans-serif;
 }
 .el-box-review .div-7 {
   display: flex;
-  margin-top: 15px;
+  margin-top: 0.945rem;
   justify-content: space-between;
-  gap: 4px;
+  gap: 0.252rem;
   line-height: 86%;
 }
 .el-box-review .div-8 {
@@ -194,9 +194,9 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
   position: relative;
   display: flex;
   width: 100%;
-  max-width: 395px;
-  border-radius: 40px;
-  padding: 40px 25px 54px 20px;
+  max-width: 24.885rem;
+  border-radius: 2.52rem;
+  padding: 2.52rem 1.575rem 3.402rem 1.26rem;
 }
 .el-industry-box:hover:before {
   display: none;
@@ -222,8 +222,8 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 .el-industry-box .img-2 {
   background-image: url("./assets/img/industry_arrow_top.svg");
   background-repeat: no-repeat;
-  min-width: 70px;
-  height: 70px;
+  min-width: 4.41rem;
+  height: 4.41rem;
 }
 .el-industry-box .img {
   position: absolute;
@@ -237,17 +237,17 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
   position: relative;
   display: flex;
   justify-content: space-between;
-  gap: 20px;
-  font-size: 32px;
+  gap: 1.26rem;
+  font-size: 2.016rem;
   font-weight: 600;
-  line-height: 38px;
-  padding: 0 2px;
+  line-height: 2.394rem;
+  padding: 0 0.126rem;
 }
 .el-industry-box .div-3 {
   font-family: Work Sans, sans-serif;
-  margin-top: 11px;
+  margin-top: 0.693rem;
   color: #080C1B;
-  font-size: 32px;
+  font-size: 2.016rem;
   font-weight: 600;
   line-height: 120%;
   letter-spacing: 0%;
@@ -255,8 +255,8 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 }
 .el-industry-box .div-4 {
   position: relative;
-  margin-top: 40px;
-  font: 400 20px/32px Work Sans, sans-serif;
+  margin-top: 2.52rem;
+  font: 400 1.26rem/2.016rem Work Sans, sans-serif;
   color: #080C1B;
   line-height: 160%;
   letter-spacing: 0%;
@@ -266,12 +266,12 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 .el-btn {
   display: inline-block;
   position: relative;
-  padding: 24px 40px 24px 40px;
-  border-radius: 100px;
+  padding: 1.25rem 2.52rem 1.512rem 2.52rem;
+  border-radius: 6.3rem;
   background: #6373B5;
   color: #ffffff;
   font-family: Work Sans, sans-serif;
-  font-size: 18px;
+  font-size: 1.134rem;
   font-weight: 600;
   letter-spacing: 4%;
   text-align: center;
@@ -282,29 +282,29 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 .testimonials-box {
   align-content: flex-end;
   flex-wrap: wrap;
-  border-radius: 20px;
-  border: 1px solid rgba(99, 115, 181, 0.25);
-  backdrop-filter: blur(10px);
+  border-radius: 1.26rem;
+  border: 0.063rem solid rgba(99, 115, 181, 0.25);
+  backdrop-filter: blur(0.63rem);
   background-color: rgba(255, 255, 255, 0.6);
   display: flex;
-  max-width: 395px;
+  max-width: 24.885rem;
   flex-direction: column;
-  padding: 40px 30px;
-  margin-bottom: 30px;
+  padding: 2.52rem 1.89rem;
+  margin-bottom: 1.89rem;
 }
 .testimonials-box .div-2 {
   display: flex;
   width: 100%;
   align-items: start;
   justify-content: space-between;
-  gap: 20px;
+  gap: 1.26rem;
   white-space: nowrap;
 }
 .testimonials-box .div-3 {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
-  padding: 0 1px;
+  gap: 1.26rem;
+  padding: 0 0.063rem;
 }
 .testimonials-box .div-4 {
   background-color: #587dbd;
@@ -312,10 +312,10 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
   aspect-ratio: 1;
   justify-content: center;
   align-items: center;
-  height: 44px;
+  height: 2.772rem;
   color: var(--white, #fff);
-  padding: 9px 12px;
-  font: 400 24px/100% Montserrat, sans-serif;
+  padding: 0.567rem 0.756rem;
+  font: 400 1.512rem/100% Montserrat, sans-serif;
 }
 .testimonials-box .div-5 {
   display: flex;
@@ -326,25 +326,25 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 }
 .testimonials-box .div-6 {
   color: var(--black, #080c1b);
-  font: 600 20px Work Sans, sans-serif;
+  font: 600 1.26rem Work Sans, sans-serif;
 }
 .testimonials-box .div-7 {
   color: var(--text, #666b81);
-  margin-top: 15px;
-  font: 300 16px Work Sans, sans-serif;
+  margin-top: 0.945rem;
+  font: 300 1.008rem Work Sans, sans-serif;
 }
 .testimonials-box .img {
   aspect-ratio: 1;
   object-fit: auto;
   object-position: center;
-  width: 32px;
+  width: 2.016rem;
 }
 .testimonials-box .img-2 {
   aspect-ratio: 5.26;
   object-fit: auto;
   object-position: center;
-  width: 134px;
-  margin-top: 30px;
+  width: 8.442rem;
+  margin-top: 1.89rem;
   max-width: 100%;
 }
 .testimonials-box .div-8 {
@@ -352,17 +352,17 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
   -webkit-line-clamp: 3;
   color: var(--text, #666b81);
   text-overflow: ellipsis;
-  margin-top: 38px;
-  font: 400 18px/29px Work Sans, sans-serif;
+  margin-top: 2.394rem;
+  font: 400 1.134rem/1.827rem Work Sans, sans-serif;
 }
 .testimonials-box .div-9 {
   color: var(--fiolet-primary, #6373b5);
-  margin-top: 30px;
-  font: 500 16px/75% Poppins, sans-serif;
+  margin-top: 1.89rem;
+  font: 500 1.008rem/75% Poppins, sans-serif;
   text-decoration: none;
 }
 .testimonials-box:hover {
-  box-shadow: 0px 10px 45px 0px rgba(99, 115, 181, 0.25);
+  box-shadow: 0rem 0.63rem 2.835rem 0rem rgba(99, 115, 181, 0.25);
 }
 
 body,
@@ -401,22 +401,47 @@ div.custom-containder {
   transform: scale(-1, 1);
 }
 
+/* ------ fix size , gum ------ */
+html {
+  font-size: 16px;
+}
+
+@media (max-width: 1700px) {
+  html {
+    font-size: 13px;
+  }
+}
+@media (max-width: 1400px) {
+  html {
+    font-size: 11px;
+  }
+}
+@media (max-width: 1200px) {
+  html {
+    font-size: 9px;
+  }
+}
+@media (max-width: 600px) {
+  html {
+    font-size: 16px;
+  }
+}
 #masthead section.menu {
   z-index: 1000;
-  border-radius: 0px 0px 50px 50px;
-  backdrop-filter: blur(5px);
+  border-radius: 0rem 0rem 3.15rem 3.15rem;
+  backdrop-filter: blur(0.315rem);
   background-color: #080c1b;
   display: flex;
   justify-content: space-between;
-  padding: 25px 37px;
+  padding: 1.575rem 2.331rem;
   align-items: center;
-  max-width: 1640px;
+  max-width: 103.32rem;
   position: fixed;
   left: 0;
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  /* ------------ mobile menu after 1024px --------------- */
+  /* ------------ mobile menu after 64.512rem --------------- */
 }
 #masthead section.menu .navbar-nav .dropdown-item {
   color: #ffffff;
@@ -425,7 +450,7 @@ div.custom-containder {
   aspect-ratio: 0.85;
   object-fit: auto;
   object-position: center;
-  width: 39px;
+  width: 2.457rem;
   align-self: stretch;
 }
 #masthead section.menu .div-4 {
@@ -440,22 +465,22 @@ div.custom-containder {
   aspect-ratio: 2;
   object-fit: auto;
   object-position: center;
-  width: 16px;
-  stroke-width: 2px;
+  width: 1.008rem;
+  stroke-width: 0.126rem;
   stroke: #b8dff0;
   margin: auto 0;
 }
 #masthead section.menu .div-12 {
   justify-content: center;
-  border-radius: 100px;
-  box-shadow: 0px 10px 45px 0px rgba(82, 100, 152, 0.25);
+  border-radius: 6.3rem;
+  box-shadow: 0rem 0.63rem 2.835rem 0rem rgba(82, 100, 152, 0.25);
   background-color: #9dd2eb;
   color: #000;
   white-space: nowrap;
   text-align: center;
   text-transform: uppercase;
-  padding: 24px 34px;
-  font: 600 18px Work Sans, sans-serif;
+  padding: 1.25rem 2.142rem;
+  font: 600 1.134rem Work Sans, sans-serif;
   text-decoration: none;
 }
 #masthead section.menu .div-4 .navbar {
@@ -471,16 +496,16 @@ div.custom-containder {
 }
 #masthead section.menu .navbar-nav a.nav-link {
   color: #fff;
-  padding: 10px 20px;
+  padding: 0.63rem 1.26rem;
   text-align: center;
   display: inline-block;
-  font: 500 18px Work Sans, sans-serif;
+  font: 500 1.134rem Work Sans, sans-serif;
   position: relative;
 }
 #masthead section.menu .dropdown-menu.show {
   background: none;
-  padding: 20px;
-  border-radius: 20px;
+  padding: 1.26rem;
+  border-radius: 1.26rem;
 }
 #masthead section.menu .dropdown-menu.show .dropdown-item {
   color: #000000;
@@ -495,7 +520,7 @@ div.custom-containder {
   left: 0;
   width: 100%;
   height: 100%;
-  border-radius: 20px;
+  border-radius: 1.26rem;
 }
 #masthead section.menu .dropdown-item:focus,
 #masthead section.menu .dropdown-item:hover {
@@ -525,23 +550,23 @@ div.custom-containder {
   #masthead section.menu .div-12 {
     order: 2;
     display: inline-block;
-    margin: auto 5px auto auto;
+    margin: auto 0.315rem auto auto;
   }
   #masthead section.menu #navbarSupportedContent {
     width: 100%;
     position: fixed;
-    top: 128px;
-    left: 0px;
+    top: 8.064rem;
+    left: 0rem;
   }
   #masthead section.menu #navbarSupportedContent .navbar-nav {
     position: relative;
-    border-radius: 20px;
+    border-radius: 1.26rem;
     display: flex;
     flex-direction: column;
-    max-width: 500px;
+    max-width: 31.5rem;
     margin: 0 0 0 auto;
-    backdrop-filter: blur(4px);
-    padding: 30px;
+    backdrop-filter: blur(0.252rem);
+    padding: 1.89rem;
     text-align: right;
   }
   #masthead section.menu #navbarSupportedContent .navbar-nav .nav-link {
@@ -556,7 +581,7 @@ div.custom-containder {
     left: 0;
     width: 100%;
     height: 100%;
-    border-radius: 20px;
+    border-radius: 1.26rem;
   }
   #masthead section.menu .dropdown-menu.show {
     border: 0;
@@ -570,9 +595,14 @@ div.custom-containder {
     display: none;
   }
 }
+@media (max-width: 420px) {
+  #masthead section.menu .el-consultum-logo .div-3 {
+    font-size: 1rem;
+  }
+}
 #masthead section.menu .navbar-light .navbar-toggler-icon {
-  height: 60px;
-  width: 60px;
+  height: 3.78rem;
+  width: 3.78rem;
   background-image: url("./assets/img/burger.svg");
 }
 #masthead section.menu .navbar-toggler[aria-expanded=true] .navbar-toggler-icon {
@@ -587,34 +617,34 @@ section.banner {
   background-image: url("./assets/img/hero_section.jpg");
   background-size: cover;
   background-position: top;
-  border-radius: 0 0 70px 70px;
-  padding-bottom: 85px;
+  border-radius: 0 0 4.41rem 4.41rem;
+  padding-bottom: 5.355rem;
 }
 section.banner .text {
   position: relative;
-  padding: 328px 16px 173px;
+  padding: 20.664rem 1.008rem 10.899rem;
   margin: 0 auto;
   text-align: left;
   color: #ffffff;
   font-family: Work Sans, sans-serif;
-  font-size: 100px;
+  font-size: 6.3rem;
   font-weight: 500;
   line-height: 120%;
-  max-width: 933px;
+  max-width: 58.779rem;
 }
 section.banner .text span {
   background-color: #B8DFF0;
-  border-radius: 50px;
+  border-radius: 3.15rem;
   color: #6373b5;
   font-style: italic;
-  padding: 0 30px 0 10px;
-  line-height: 113px;
+  padding: 0 1.89rem 0 0.63rem;
+  line-height: 7.119rem;
   display: inline-block;
 }
 section.banner .el-lets-start {
   position: absolute;
   right: 0;
-  top: 350px;
+  top: 22.05rem;
   line-height: 0;
 }
 section.banner .buttom-block {
@@ -622,68 +652,116 @@ section.banner .buttom-block {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 1.26rem;
 }
 section.banner .google-r-block span {
   color: rgb(255, 255, 255);
   font-family: Work Sans, sans-serif;
-  font-size: 20px;
+  font-size: 1.26rem;
   font-weight: 500;
   line-height: 100%;
-  letter-spacing: 0px;
+  letter-spacing: 0rem;
   text-align: left;
-  padding-right: 10px;
+  padding-right: 0.63rem;
 }
 section.banner .google-r-block .stars {
-  width: 90px;
+  width: 5.67rem;
   position: relative;
-  top: -1px;
+  top: -0.063rem;
+}
+section.banner .google-r-block img {
+  width: 10.08rem;
 }
 section.banner .reviews-block,
 section.banner .trustpilot-block {
   color: rgb(255, 255, 255);
   font-family: Work Sans, sans-serif;
-  font-size: 20px;
+  font-size: 1.26rem;
   font-weight: 500;
   line-height: 100%;
-  letter-spacing: 0px;
+  letter-spacing: 0rem;
   text-align: left;
 }
 section.banner .reviews-block span,
 section.banner .trustpilot-block span {
-  padding-top: 10px;
+  padding-top: 0.63rem;
   display: inline-block;
+}
+section.banner .reviews-block img {
+  width: 9.828rem;
+}
+section.banner .trustpilot-block img {
+  width: 11.97rem;
+}
+section.banner .excellent-block img {
+  width: 12.285rem;
 }
 section.banner .excellent-block span {
   color: rgb(255, 255, 255);
   font-family: Work Sans, sans-serif;
-  font-size: 20px;
+  font-size: 1.26rem;
   font-weight: 500;
   line-height: 100%;
-  letter-spacing: 0px;
+  letter-spacing: 0rem;
   text-align: left;
   display: inline-block;
-  padding-bottom: 8px;
+  padding-bottom: 0.504rem;
 }
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 600px) {
   section.banner .el-lets-start {
-    top: 150px;
-    right: 20px;
+    position: relative;
+    top: initial;
+    right: initial;
+    width: 100%;
   }
   section.banner .text {
-    padding: 264px 16px 90px;
-  }
-}
-@media screen and (max-width: 510px) {
-  section.banner .el-lets-start {
-    top: 150px;
-  }
-  section.banner .text {
-    font-size: 50px;
+    font-size: 3.654rem;
+    padding: 9rem 1.008rem 2rem;
   }
   section.banner .text span {
-    padding: 0 10px 0 10px;
-    line-height: 50px;
+    line-height: 4rem;
+    margin-bottom: 2.52rem;
+    font-size: 3.15rem;
+  }
+  section.banner .google-r-block {
+    order: 1;
+  }
+  section.banner .google-r-block img {
+    width: 10rem;
+  }
+  section.banner .reviews-block {
+    order: 2;
+  }
+  section.banner .reviews-block img {
+    width: 10rem;
+  }
+  section.banner .trustpilot-block {
+    order: 3;
+  }
+  section.banner .trustpilot-block img {
+    width: 10rem;
+  }
+  section.banner .excellent-block {
+    order: 4;
+  }
+  section.banner .excellent-block img {
+    width: 10rem;
+  }
+  section.banner .el-social {
+    order: 5;
+    margin: 0 auto;
+    padding-top: 1.89rem;
+  }
+  section.banner .el-phone-block {
+    order: 6;
+    margin: 0 auto;
+    margin-top: 1.89rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  section.banner .text span {
+    line-height: 3rem;
+    font-size: 2.7rem;
   }
 }
 
@@ -1404,20 +1482,20 @@ section.any-questions .wpcf7 form .wpcf7-response-output {
   position: relative;
 }
 section.any-questions .wpcf7-submit {
-  border-radius: 200px;
-  box-shadow: 0px 10px 45px 0px rgba(99, 115, 181, 0.25);
-  backdrop-filter: blur(10px);
+  border-radius: 12.6rem;
+  box-shadow: 0rem 0.63rem 2.835rem 0rem rgba(99, 115, 181, 0.25);
+  backdrop-filter: blur(0.63rem);
   background-color: var(--white, #fff);
   display: flex;
   justify-content: space-between;
-  gap: 20px;
-  font-size: 24px;
+  gap: 1.26rem;
+  font-size: 1.512rem;
   color: var(--fiolet-primary, #6373b5);
   font-weight: 600;
   text-align: center;
   text-transform: uppercase;
-  padding: 10px 10px 10px 25px;
-  width: 288px;
+  padding: 0.63rem 0.63rem 0.63rem 1.575rem;
+  width: 18.144rem;
   text-decoration: none;
   line-height: 0;
   width: 100%;
@@ -1433,7 +1511,7 @@ section.any-questions .wpcf7-submit .img {
   aspect-ratio: 1;
   object-fit: auto;
   object-position: center;
-  width: 70px;
+  width: 4.41rem;
 }
 section.any-questions .wpcf7-submit .div-2 {
   text-align: left;

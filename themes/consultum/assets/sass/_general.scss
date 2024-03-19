@@ -25,19 +25,48 @@ div.custom-containder {
   height: 70px;
 }
 
-.g-arrow-right-top-hover{
+.g-arrow-right-top-hover {
   &:hover {
-    .g-arrow-right-top{
+    .g-arrow-right-top {
       background-image: url("./assets/img/industry_arrow_bottom.svg");
     }
   }
 }
 
-.g-arrow-left-top-hover{
+.g-arrow-left-top-hover {
   &:hover {
-    .g-arrow-left-top{
+    .g-arrow-left-top {
       background-image: url("./assets/img/industry_arrow_bottom.svg");
       transform: scale(-1, 1);
     }
+  }
+}
+
+/* ------ fix size , gum ------ */
+html {
+  font-size: 16px;
+}
+
+@media (max-width: 1700px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1400px) {
+  html {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 16px;
   }
 }

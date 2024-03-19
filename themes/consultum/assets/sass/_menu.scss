@@ -1,13 +1,13 @@
 #masthead section.menu {
   z-index: 1000;
-  border-radius: 0px 0px 50px 50px;
-  backdrop-filter: blur(5px);
+  border-radius: 0rem 0rem 3.15rem 3.15rem;
+  backdrop-filter: blur(0.315rem);
   background-color: #080c1b;
   display: flex;
   justify-content: space-between;
-  padding: 25px 37px;
+  padding: 1.575rem 2.331rem;
   align-items: center;
-  max-width: 1640px;
+  max-width: 103.32rem;
   position: fixed;
   left: 0;
   right: 0;
@@ -22,7 +22,7 @@
     aspect-ratio: 0.85;
     object-fit: auto;
     object-position: center;
-    width: 39px;
+    width: 2.457rem;
     align-self: stretch;
   }
 
@@ -39,8 +39,8 @@
     aspect-ratio: 2;
     object-fit: auto;
     object-position: center;
-    width: 16px;
-    stroke-width: 2px;
+    width: 1.008rem;
+    stroke-width: 0.126rem;
     stroke: #b8dff0;
     margin: auto 0;
   }
@@ -48,15 +48,15 @@
 
   .div-12 {
     justify-content: center;
-    border-radius: 100px;
-    box-shadow: 0px 10px 45px 0px rgba(82, 100, 152, 0.25);
+    border-radius: 6.3rem;
+    box-shadow: 0rem 0.63rem 2.835rem 0rem rgba(82, 100, 152, 0.25);
     background-color: #9dd2eb;
     color: #000;
     white-space: nowrap;
     text-align: center;
     text-transform: uppercase;
-    padding: 24px 34px;
-    font: 600 18px Work Sans, sans-serif;
+    padding: 1.25rem 2.142rem;
+    font: 600 1.134rem Work Sans, sans-serif;
     text-decoration: none;
   }
 
@@ -76,17 +76,17 @@
 
   .navbar-nav a.nav-link {
     color: #fff;
-    padding: 10px 20px;
+    padding: 0.63rem 1.26rem;
     text-align: center;
     display: inline-block;
-    font: 500 18px Work Sans, sans-serif;
+    font: 500 1.134rem Work Sans, sans-serif;
     position: relative;
   }
 
   .dropdown-menu.show {
     background: none;
-    padding: 20px;
-    border-radius: 20px;
+    padding: 1.26rem;
+    border-radius: 1.26rem;
 
     .dropdown-item {
       color: #000000;
@@ -102,13 +102,13 @@
       left: 0;
       width: 100%;
       height: 100%;
-      border-radius: 20px;
+      border-radius: 1.26rem;
     }
   }
 
   .dropdown-item:focus,
   .dropdown-item:hover {
-    // padding-left: 20px;
+    // padding-left: 1.26rem;
     background-color: initial;
   }
 
@@ -117,9 +117,11 @@
   }
 
 
-  /* ------------ mobile menu after 1024px --------------- */
+  /* ------------ mobile menu after 64.512rem --------------- */
 
   @media (max-width: 1024px) {
+
+    //1024
     .navbar-expand-custom .navbar-toggler {
       display: block !important;
     }
@@ -145,24 +147,24 @@
     .div-12 {
       order: 2;
       display: inline-block;
-      margin: auto 5px auto auto;
+      margin: auto 0.315rem auto auto;
     }
 
     #navbarSupportedContent {
       width: 100%;
       position: fixed;
-      top: 128px;
-      left: 0px;
+      top: 8.064rem;
+      left: 0rem;
 
       .navbar-nav {
         position: relative;
-        border-radius: 20px;
+        border-radius: 1.26rem;
         display: flex;
         flex-direction: column;
-        max-width: 500px;
+        max-width: 31.5rem;
         margin: 0 0 0 auto;
-        backdrop-filter: blur(4px);
-        padding: 30px;
+        backdrop-filter: blur(0.252rem);
+        padding: 1.89rem;
         text-align: right;
 
         .nav-link {
@@ -178,13 +180,14 @@
           left: 0;
           width: 100%;
           height: 100%;
-          border-radius: 20px;
+          border-radius: 1.26rem;
         }
       }
     }
 
     .dropdown-menu.show {
       border: 0;
+
       &:before {
         content: initial;
       }
@@ -194,14 +197,22 @@
   // dropdown-menu
 
   @media (max-width: 620px) {
+    //620
     .div-12 {
       display: none;
     }
   }
 
+  @media (max-width: 420px) {
+    //420
+    .el-consultum-logo .div-3 {
+      font-size: 1rem;
+    }
+  }
+
   .navbar-light .navbar-toggler-icon {
-    height: 60px;
-    width: 60px;
+    height: 3.78rem;
+    width: 3.78rem;
     background-image: url("./assets/img/burger.svg");
   }
 

@@ -2,29 +2,29 @@ section.banner {
   background-image: url("./assets/img/hero_section.jpg");
   background-size: cover;
   background-position: top;
-  border-radius: 0 0 70px 70px;
-  padding-bottom: 85px;
+  border-radius: 0 0 4.41rem 4.41rem;
+  padding-bottom: 5.355rem;
 
   .text {
     position: relative;
-    padding: 328px 16px 173px;
+    padding: 20.664rem 1.008rem 10.899rem;
     margin: 0 auto;
     text-align: left;
 
     color: #ffffff;
     font-family: Work Sans, sans-serif;
-    font-size: 100px;
+    font-size: 6.3rem;
     font-weight: 500;
     line-height: 120%;
-    max-width: 933px;
+    max-width: 58.779rem;
 
     span {
       background-color: #B8DFF0;
-      border-radius: 50px;
+      border-radius: 3.15rem;
       color: #6373b5;
       font-style: italic;
-      padding: 0 30px 0 10px;
-      line-height: 113px;
+      padding: 0 1.89rem 0 0.63rem;
+      line-height: 7.119rem;
       display: inline-block;
     }
   }
@@ -32,7 +32,7 @@ section.banner {
   .el-lets-start {
     position: absolute;
     right: 0;
-    top: 350px;
+    top: 22.05rem;
     line-height: 0;
   }
 
@@ -41,7 +41,7 @@ section.banner {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 1.26rem;
   }
 
   .google-r-block {
@@ -49,18 +49,22 @@ section.banner {
     span {
       color: rgb(255, 255, 255);
       font-family: Work Sans, sans-serif;
-      font-size: 20px;
+      font-size: 1.26rem;
       font-weight: 500;
       line-height: 100%;
-      letter-spacing: 0px;
+      letter-spacing: 0rem;
       text-align: left;
-      padding-right: 10px;
+      padding-right: 0.63rem;
     }
 
     .stars {
-      width: 90px;
+      width: 5.67rem;
       position: relative;
-      top: -1px;
+      top: -0.063rem;
+    }
+
+    img {
+      width: 10.08rem;
     }
   }
 
@@ -69,55 +73,118 @@ section.banner {
 
     color: rgb(255, 255, 255);
     font-family: Work Sans, sans-serif;
-    font-size: 20px;
+    font-size: 1.26rem;
     font-weight: 500;
     line-height: 100%;
-    letter-spacing: 0px;
+    letter-spacing: 0rem;
     text-align: left;
 
     span {
-      padding-top: 10px;
+      padding-top: 0.63rem;
       display: inline-block;
+    }
+  }
+
+  .reviews-block {
+    img {
+      width: 9.828rem;
+    }
+  }
+
+  .trustpilot-block {
+    img {
+      width: 11.97rem;
     }
   }
 
   .excellent-block {
+    img {
+      width: 12.285rem;
+    }
 
     span {
       color: rgb(255, 255, 255);
       font-family: Work Sans, sans-serif;
-      font-size: 20px;
+      font-size: 1.26rem;
       font-weight: 500;
       line-height: 100%;
-      letter-spacing: 0px;
+      letter-spacing: 0rem;
       text-align: left;
       display: inline-block;
-      padding-bottom: 8px;
+      padding-bottom: 0.504rem;
     }
   }
 
-  @media screen and (max-width: 980px) {
+  @media screen and (max-width: 600px) {
     .el-lets-start {
-      top: 150px;
-      right: 20px;
+      position: relative;
+      top: initial;
+      right: initial;
+      width: 100%;
     }
 
     .text {
-      padding: 264px 16px 90px;
-    }
-  }
-
-  @media screen and (max-width: 510px) {
-    .el-lets-start {
-      top: 150px;
-    }
-
-    .text {
-      font-size: 50px;
+      font-size: 3.654rem;
+      padding: 9rem 1.008rem 2rem;
 
       span {
-        padding: 0 10px 0 10px;
-        line-height: 50px;
+        // padding: 0 0.63rem 0 0.63rem;
+        line-height: 4rem;
+        margin-bottom: 2.52rem;
+        font-size: 3.15rem;
+      }
+    }
+
+    .google-r-block {
+      img {
+        width: 10rem;
+      }
+
+      order: 1;
+    }
+
+    .reviews-block {
+      img {
+        width: 10rem;
+      }
+
+      order: 2;
+    }
+
+    .trustpilot-block {
+      img {
+        width: 10rem;
+      }
+
+      order: 3;
+    }
+
+    .excellent-block {
+      img {
+        width: 10rem;
+      }
+
+      order: 4;
+    }
+
+    .el-social {
+      order: 5;
+      margin: 0 auto;
+      padding-top: 1.89rem;
+    }
+
+    .el-phone-block {
+      order: 6;
+      margin: 0 auto;
+      margin-top: 1.89rem;
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+    .text {
+      span {
+        line-height: 3rem;
+        font-size: 2.7rem;
       }
     }
   }

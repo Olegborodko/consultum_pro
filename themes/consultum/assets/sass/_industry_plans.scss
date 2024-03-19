@@ -21,4 +21,10 @@ section.industry-plans {
       font-style: italic;
     }
   }
+
+  @media screen and (max-width: 800px) {
+    h2{
+      font-size: 48px;
+    }
+  }
 }

@@ -149,6 +149,7 @@ function consultum_scripts() {
 
   wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/assets/bootstrap-5.0.2-dist/js/bootstrap.min.js', array(), _S_VERSION, true );
 
+  wp_enqueue_script( 'main-js', get_template_directory_uri() . '/assets/js/main.js', array(), _S_VERSION, true );
 }
 add_action( 'wp_enqueue_scripts', 'consultum_scripts' );
 

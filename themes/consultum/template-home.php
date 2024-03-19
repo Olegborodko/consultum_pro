@@ -10,7 +10,7 @@ $img_src = get_template_directory_uri() . "/assets/img/";
 
 <section class="banner">
   <div class="text">
-    <?php el_lets_start() ?>
+    <?php el_lets_start('Lets start', '#') ?>
     Your reliable partner in writing a
     <span>business plan</span>
   </div>
@@ -338,6 +338,17 @@ $img_src = get_template_directory_uri() . "/assets/img/";
       </div>
     </div>
   </div>
+</section>
+<section class="any-questions">
+  <div class="any-questions-block">
+    <div class="get-in">
+      <h2>Any questions?</h2>
+      <div>Get in Touch!</div>
+    </div>
+    <div class="form">
+      <?php echo do_shortcode('[contact-form-7 id="f9a6808" title="home_page"]'); ?>
+    </div>
+    <div>
 </section>
 
 <?php

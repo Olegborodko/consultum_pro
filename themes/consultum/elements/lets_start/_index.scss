@@ -1,4 +1,4 @@
-.el-lets-start {
+@mixin el-lets-start{
   border-radius: 200px;
   box-shadow: 0px 10px 45px 0px rgba(99, 115, 181, 0.25);
   backdrop-filter: blur(10px);
@@ -29,4 +29,8 @@
     object-position: center;
     width: 70px;
   }
+}
+
+.el-lets-start{
+  @include el-lets-start;
 }

@@ -1,32 +1,32 @@
 section.testimonials {
-  padding-top: 80px;
+  padding-top: 5.04rem;
 
   h2 {
     color: #080C1B;
     font-family: Work Sans, sans-serif;
-    font-size: 80px;
+    font-size: 5.04rem;
     font-weight: 600;
     line-height: 120%;
     letter-spacing: 0%;
     text-align: left;
-    padding-bottom: 20px;
+    padding-bottom: 1.26rem;
   }
 
   .desc {
     color: #666B81;
     font-family: Work Sans, sans-serif;
-    font-size: 20px;
+    font-size: 1.26rem;
     font-weight: 400;
     line-height: 160%;
     letter-spacing: 0%;
     text-align: left;
-    max-width: 704px;
+    max-width: 44.352rem;
   }
 
   /* ------------------- */
   .excellent-review {
     display: flex;
-    max-width: 210px;
+    max-width: 13.23rem;
     flex-direction: column;
     white-space: nowrap;
     line-height: 100%;
@@ -34,9 +34,9 @@ section.testimonials {
     .div-2 {
       display: flex;
       width: 100%;
-      padding-left: 49px;
+      padding-left: 3.087rem;
       flex-direction: column;
-      font-size: 32px;
+      font-size: 2.016rem;
       color: var(--black, #080c1b);
       font-weight: 500;
     }
@@ -44,24 +44,24 @@ section.testimonials {
     .div-3 {
       font-family: Work Sans, sans-serif;
       align-self: start;
-      margin-left: 15px;
+      margin-left: 0.945rem;
     }
 
     .img {
       aspect-ratio: 5.26;
       object-position: center;
-      width: 161px;
+      width: 10.143rem;
       align-self: center;
-      margin-top: 16px;
+      margin-top: 1.008rem;
     }
 
     .div-4 {
       display: flex;
-      margin-top: 10px;
-      padding-right: 20px;
+      margin-top: 0.63rem;
+      padding-right: 1.26rem;
       justify-content: space-between;
-      gap: 10px;
-      font-size: 18px;
+      gap: 0.63rem;
+      font-size: 1.134rem;
     }
 
     .div-5 {
@@ -81,10 +81,10 @@ section.testimonials {
     .img-2 {
       aspect-ratio: 2.94;
       object-position: center;
-      width: 178px;
+      width: 11.214rem;
       align-self: center;
-      max-width: 178px;
-      margin: 10px 0 0 32px;
+      max-width: 11.214rem;
+      margin: 0.63rem 0 0 2.016rem;
     }
   }
 
@@ -95,26 +95,31 @@ section.testimonials {
 
   .testimonials-part-2 {
     display: flex;
-    padding: 40px 0 50px;
+    padding: 2.52rem 0 3.15rem;
     justify-content: space-between;
     flex-wrap: wrap;
   }
 
-  @media screen and (max-width: 1620px) {
-    .testimonials-part-2{
+  @media screen and (max-width: 1000px) {
+
+    //1000
+    .testimonials-part-2 {
       justify-content: space-around;
     }
-  }
 
-  @media screen and (max-width: 1000px) {
-    .excellent-review {
-      display: none;
+    .testimonials-part-1 {
+      .right{
+        padding-top: 3.5rem;
+      }
     }
   }
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 600px) { //600
+    .testimonials-part-1 {
+      flex-direction: column;
+    }
     h2 {
-      font-size: 48px;
+      font-size: 3.024rem;
     }
   }
 }

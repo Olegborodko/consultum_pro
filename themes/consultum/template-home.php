@@ -195,6 +195,91 @@ $img_src = get_template_directory_uri() . "/assets/img/";
     </a>
   </div>
 </section>
+<section class="how-it-works">
+  <div class="custom-containder">
+    <div class="title">
+      <div class="text">How it works</div>
+      <div class="plan">Your business plan in <span>4 easy steps</span></div>
+    </div>
+    <div class="description">
+      <span>ConsultumPro</span> team will work closely with you and provide essential guidance from the beginning to the
+      end of the process.
+    </div>
+    <div class="space"></div>
+    <div class="steps-block">
+      <div class="step">
+        <div class="after-img">
+          <img src="<?= $img_src ?>/step_1.svg" alt="step 1">
+        </div>
+        <div class="desc">
+          Fill out and submit our online form
+        </div>
+      </div>
+      <div class="step">
+        <div class="after-img">
+          <img src="<?= $img_src ?>/step_2.svg" alt="step 2">
+        </div>
+        <div class="desc">
+          Expert will be in touch to discuss the particulars of your business plan.
+        </div>
+      </div>
+      <div class="step">
+        <div class="after-img">
+          <img src="<?= $img_src ?>/step_3.svg" alt="step 3">
+        </div>
+        <div class="desc">
+          We will issue a draft of your business days within 10-15 days.
+        </div>
+      </div>
+      <div class="step">
+        <div class="after-img">
+          <img src="<?= $img_src ?>/step_4.svg" alt="step 4">
+        </div>
+        <div class="desc">
+          After carefully considering your clients and making all necessary revisions, we will issue the final version
+          of your business plan.
+        </div>
+      </div>
+    </div>
+    <div class="bottom-block">
+      <?php el_btn("#", "Our online form"); ?>
+    </div>
+  </div>
+</section>
+<section class="testimonials">
+  <div class="custom-containder">
+    <div class="testimonials-part-1">
+      <div class="left">
+        <h2>Testimonials</h2>
+        <div class="desc">
+          Our clients are our top priority. We do absolutely everything within our power to exceed our clients’
+          expectations
+          in every conceivable way.
+        </div>
+      </div>
+      <div class="right">
+        <div class="excellent-review">
+          <div class="div-2">
+            <div class="div-3">Excellent</div>
+            <img loading="lazy" src="<?= $img_src ?>/stars.svg" class="img" />
+          </div>
+          <div class="div-4">
+            <div class="div-5">Based on</div>
+            <div class="div-6">2,156 reviews</div>
+          </div>
+          <img loading="lazy" src="<?= $img_src ?>/google.svg" class="img-2" />
+        </div>
+      </div>
+    </div>
+    <div class="testimonials-part-2">
+      <?php
+      for ($x = 0; $x <= 3; $x++) {
+        el_testimonials_box();
+      }
+      ?>
+    </div>
+  </div>
+</section>
 <?php
 // get_footer();
 ?>

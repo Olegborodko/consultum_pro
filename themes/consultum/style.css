@@ -1294,7 +1294,7 @@ section.testimonials .testimonials-part-2 {
 }
 
 section.frequently-asked {
-  padding-top: 80px;
+  padding-top: 5.04rem;
 }
 section.frequently-asked .inside-block {
   display: flex;
@@ -1306,29 +1306,31 @@ section.frequently-asked .faq {
 section.frequently-asked .desc h2 {
   color: rgb(0, 0, 0);
   font-family: Work Sans, sans-serif;
-  font-size: 80px;
+  font-size: 5.04rem;
   font-weight: 600;
   line-height: 120%;
   letter-spacing: 0%;
   text-align: left;
-  padding-bottom: 50px;
+  padding-bottom: 3.15rem;
 }
 section.frequently-asked .desc {
   position: relative;
-  height: 840px;
+  height: 52.92rem;
 }
 section.frequently-asked .desc img {
   position: absolute;
-  left: -140px;
+  left: -8.82rem;
+  width: 51.093rem;
+  height: 31.5rem;
 }
 section.frequently-asked .faq .accordion-button {
-  padding: 40px 40px 30px;
+  padding: 2.52rem 2.52rem 1.89rem;
 }
 section.frequently-asked .faq .accordion-body {
-  padding: 0 40px 40px;
+  padding: 0 2.52rem 2.52rem;
   color: rgb(102, 107, 129);
   font-family: Work Sans, sans-serif;
-  font-size: 18px;
+  font-size: 1.134rem;
   font-weight: 400;
   line-height: 160%;
   letter-spacing: 0%;
@@ -1336,16 +1338,16 @@ section.frequently-asked .faq .accordion-body {
 }
 section.frequently-asked .faq .accordion-item {
   box-sizing: border-box;
-  border: 1px solid rgb(235, 236, 242);
-  border-radius: 20px;
+  border: 0.063rem solid rgb(235, 236, 242);
+  border-radius: 1.26rem;
   background: rgba(255, 255, 255, 0.6);
-  margin-bottom: 20px;
+  margin-bottom: 1.26rem;
 }
 section.frequently-asked .faq .accordion-button {
   background-color: #E5F3FA;
   color: rgb(8, 12, 27);
   font-family: Work Sans, sans-serif;
-  font-size: 24px;
+  font-size: 1.512rem;
   font-weight: 600;
   line-height: 140%;
   text-align: left;
@@ -1354,8 +1356,8 @@ section.frequently-asked .faq .accordion-button::after {
   background-image: url("./assets/img/plus.png");
   transform: scale(0.7) !important;
   position: absolute;
-  right: 24px;
-  top: 24px;
+  right: 1.512rem;
+  top: 1.512rem;
 }
 section.frequently-asked .faq .accordion-button:not(.collapsed) {
   background-color: initial;
@@ -1364,42 +1366,43 @@ section.frequently-asked .faq .accordion-button:not(.collapsed) {
 section.frequently-asked .faq .accordion-button:not(.collapsed)::after {
   background-image: url("./assets/img/minus.png");
 }
-@media screen and (max-width: 1450px) {
+@media screen and (max-width: 1000px) {
   section.frequently-asked .inside-block {
     flex-direction: column;
   }
   section.frequently-asked .desc {
     height: initial;
-    padding-bottom: 50px;
+    padding-bottom: 3.15rem;
   }
   section.frequently-asked .desc img {
     position: relative;
-    width: 100%;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   section.frequently-asked .desc img {
-    left: 0;
+    left: -16px;
+    width: 100%;
+    height: initial;
   }
   section.frequently-asked .desc h2 {
-    font-size: 48px;
+    font-size: 3.024rem;
   }
 }
 
 section.any-questions {
-  max-width: 1920px;
+  max-width: 120.96rem;
   width: 100%;
   margin: 0 auto;
-  padding: 0 16px;
-  border-radius: 60px 60px 0px 0px;
+  border-radius: 3.78rem 3.78rem 0rem 0rem;
   background: linear-gradient(54.29deg, rgb(67, 83, 139) 3.515%, rgb(99, 115, 181) 98.438%);
 }
 section.any-questions .any-questions-block {
   display: flex;
   background-image: url("./assets/img/get_in.png");
   background-repeat: no-repeat;
+  background-size: 35.406rem 32.13rem;
   background-position-x: left;
-  background-position-y: 26px;
+  background-position-y: bottom;
 }
 section.any-questions .get-in {
   text-align: center;
@@ -1408,98 +1411,101 @@ section.any-questions .get-in {
 section.any-questions .get-in div {
   color: rgb(99, 115, 181);
   font-family: Work Sans, sans-serif;
-  font-size: 80px;
+  font-size: 5.04rem;
   font-weight: 600;
-  line-height: 90px;
-  border-radius: 100px;
+  line-height: 5.67rem;
+  border-radius: 6.3rem;
   background: rgb(184, 223, 240);
   display: inline-block;
-  padding: 0 24px 0 14px;
+  padding: 0 1.512rem 0 0.882rem;
   font-style: italic;
 }
 section.any-questions h2 {
   color: rgb(255, 255, 255);
   font-family: Work Sans, sans-serif;
-  font-size: 80px;
+  font-size: 5.04rem;
   font-weight: 600;
-  line-height: 94px;
+  line-height: 5.922rem;
   letter-spacing: 0%;
-  padding: 80px 0 20px;
+  padding: 5.04rem 0 1.26rem;
 }
 section.any-questions .form {
   flex: 0.8;
 }
 section.any-questions .contact-form-home {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 5.04rem;
+  padding-bottom: 5.04rem;
 }
 section.any-questions span[data-name=your-name],
 section.any-questions span[data-name=phone-num],
 section.any-questions span[data-name=your-email] {
   display: inline-block;
-  margin-bottom: 18px;
+  margin-bottom: 1.134rem;
 }
 section.any-questions span[data-name=your-name]:after,
 section.any-questions span[data-name=phone-num]:after,
 section.any-questions span[data-name=your-email]:after {
   content: "";
   position: absolute;
-  width: 32px;
-  height: 32px;
-  left: 30px;
-  top: 15px;
-  padding-right: 34px;
+  width: 2.016rem;
+  height: 2.016rem;
+  left: 1.89rem;
+  top: 0.945rem;
+  padding-right: 2.142rem;
 }
 section.any-questions span[data-name=your-name]:before,
 section.any-questions span[data-name=phone-num]:before,
 section.any-questions span[data-name=your-email]:before {
   content: "";
   position: absolute;
-  height: 18px;
-  width: 1px;
+  height: 1.134rem;
+  width: 0.063rem;
   background: #ffffff;
-  left: 78px;
-  top: 22px;
+  left: 4.914rem;
+  top: 1.386rem;
 }
 section.any-questions span[data-name=your-name] input,
 section.any-questions span[data-name=phone-num] input,
 section.any-questions span[data-name=your-email] input {
-  border: 1px solid rgb(184, 223, 240);
-  border-radius: 100px;
+  border: 0.063rem solid rgb(184, 223, 240);
+  border-radius: 6.3rem;
   background: rgba(255, 255, 255, 0.5);
-  padding: 21px 10px 21px 102px;
-  max-width: 534px;
+  padding: 1.323rem 0.63rem 1.323rem 6.426rem;
+  max-width: 33.642rem;
   width: 100%;
   color: rgb(8, 12, 27);
   font-family: Work Sans, sans-serif;
-  font-size: 18px;
+  font-size: 1.134rem;
   font-weight: 400;
-  line-height: 21px;
-  letter-spacing: 0px;
+  line-height: 1.323rem;
+  letter-spacing: 0rem;
   text-align: left;
   position: relative;
 }
 section.any-questions span[data-name=your-name]:after {
   background-image: url("./assets/img/mdi_account.png");
+  background-size: 100%;
 }
 section.any-questions span[data-name=phone-num]:after {
   background-image: url("./assets/img/ph_phone-fill.png");
+  background-size: 100%;
 }
 section.any-questions span[data-name=your-email] {
-  margin-bottom: 40px;
+  margin-bottom: 2.52rem;
 }
 section.any-questions span[data-name=your-email]:after {
   background-image: url("./assets/img/ic_round-email.png");
+  background-size: 100%;
 }
 section.any-questions .wpcf7-not-valid-tip {
-  padding-left: 36px;
-  padding-top: 4px;
+  padding-left: 2.268rem;
+  padding-top: 0.252rem;
 }
 section.any-questions .wpcf7 form .wpcf7-response-output {
   margin: 0;
   border: 0;
   color: #ffffff;
-  padding-left: 36px;
+  padding-left: 2.268rem;
   position: relative;
 }
 section.any-questions .wpcf7-submit {
@@ -1520,7 +1526,7 @@ section.any-questions .wpcf7-submit {
   text-decoration: none;
   line-height: 0;
   width: 100%;
-  max-width: 534px;
+  max-width: 33.642rem;
 }
 section.any-questions .wpcf7-submit .div-2 {
   font-family: Work Sans, sans-serif;
@@ -1536,21 +1542,27 @@ section.any-questions .wpcf7-submit .img {
 }
 section.any-questions .wpcf7-submit .div-2 {
   text-align: left;
-  padding-left: 12px;
+  padding-left: 0.756rem;
 }
-@media screen and (max-width: 1130px) {
+@media screen and (max-width: 800px) {
   section.any-questions .any-questions-block {
     flex-direction: column;
     text-align: center;
   }
   section.any-questions .wpcf7-form-control.wpcf7-submit {
     margin: 0 auto;
+    font-size: 1.134rem;
   }
-}
-@media screen and (max-width: 800px) {
   section.any-questions .get-in div,
   section.any-questions .get-in h2 {
-    font-size: 48px;
+    font-size: 3.024rem;
+  }
+  section.any-questions .get-in div {
+    padding: 0 1.008rem;
+    line-height: 2.7rem;
+  }
+  section.any-questions .contact-form-home {
+    padding: 5.04rem 1.008rem;
   }
 }
 

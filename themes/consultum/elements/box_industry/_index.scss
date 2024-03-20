@@ -3,11 +3,13 @@
     &:before {
       display: none;
     }
+
     .div-3,
-    .div-4{
+    .div-4 {
       color: #ffffff;
     }
-    .img-2{
+
+    .img-2 {
       background-image: url("./assets/img/industry_arrow_bottom.svg");
     }
   }
@@ -24,8 +26,9 @@
     background-color: #B8DFF0;
   }
 
-  .img-2{
+  .img-2 {
     background-image: url("./assets/img/industry_arrow_top.svg");
+    background-size: 100%;
     background-repeat: no-repeat;
     min-width: 4.41rem;
     height: 4.41rem;
@@ -82,5 +85,11 @@
     line-height: 160%;
     letter-spacing: 0%;
     text-align: left;
+  }
+
+  @media screen and (max-width: 600px) {    //600
+    .div-3 {
+      font-size: 1.3rem;
+    }
   }
 }

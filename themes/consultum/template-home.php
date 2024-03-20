@@ -101,6 +101,100 @@ $img_src = get_template_directory_uri() . "/assets/img/";
     </div>
   </div>
 </section>
+<section class="industry-plans">
+  <div class="custom-containder">
+    <h2>Our Business Plans by <span>Industry</span></h2>
+    <div class="industry-plans-block">
+      <?php el_industry_box(
+        "Cannabis business plan",
+        "Our Cannabis business plan model covers all aspects needed for fundraising and getting a license.",
+        "#",
+        "image_industry1.png"
+      );
+      ?>
+      <?php el_industry_box(
+        "Ecommerce Business Plan",
+        "Supports in developing an operationally efficient ecommerce business.",
+        "#",
+        "image_industry2.png"
+      );
+      ?>
+      <?php el_industry_box(
+        "Mobile App Business Plan",
+        "Suitable for new mobile app projects and covers preparing operational guidelines.",
+        "#",
+        "image_industry3.png"
+      );
+      ?>
+      <?php el_industry_box(
+        "Real Estate Business Plan",
+        "Suitable for real estate projects, private equity funds, property management companies, real estate developers and agents.",
+        "#",
+        "image_industry4.png"
+      );
+      ?>
+      <?php el_industry_box(
+        "Online Boutique Business Plan",
+        "Suitable for the online fashion industry.",
+        "#",
+        "image_industry5.png"
+      );
+      ?>
+      <?php el_industry_box(
+        "Restaurant Business Plan",
+        "Suitable for restaurant/bar/cafe business concepts.",
+        "#",
+        "image_industry6.png"
+      );
+      ?>
+      <?php el_industry_box(
+        "Food Delivery Business Plan",
+        "Suitable for food delivery or general delivery concepts.",
+        "#",
+        "image_industry7.png"
+      );
+      ?>
+      <?php el_industry_box(
+        "Daycare Business Plan",
+        "Suitable for day care and caregiver type businesses.",
+        "#",
+        "image_industry8.png"
+      );
+      ?>
+    </div>
+  </div>
+</section>
+<section class="immigration-busines">
+  <h2>
+    <div>Immigration business plan <span>sample</span></div>
+  </h2>
+  <div class="immigration-block">
+    <a class="i-box g-arrow-left-top-hover">
+      <div class="g-arrow-left-top"></div>
+      <div class="title">
+        <div>
+          EB-2 visa
+        </div>
+      </div>
+    </a>
+    <a class="i-box i-box-small g-arrow-left-top-hover">
+      <div class="g-arrow-left-top"></div>
+      <div class="title">
+        <div>
+          E2 visa
+        </div>
+      </div>
+    </a>
+    <a class="i-box g-arrow-left-top-hover">
+      <div class="g-arrow-left-top"></div>
+      <div class="title">
+        <div>
+          E2 visa
+        </div>
+      </div>
+    </a>
+  </div>
+</section>
 <?php
 // get_footer();
 ?>

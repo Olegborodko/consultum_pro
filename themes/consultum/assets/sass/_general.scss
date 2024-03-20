@@ -12,6 +12,7 @@ div.custom-containder {
 
 .g-arrow-right-top {
   background-image: url("./assets/img/industry_arrow_top.svg");
+  background-size: 100%;
   background-repeat: no-repeat;
   min-width: 4.41rem; //70
   height: 4.41rem; //70
@@ -19,6 +20,7 @@ div.custom-containder {
 
 .g-arrow-left-top {
   background-image: url("./assets/img/industry_arrow_top.svg");
+  background-size: 100%;
   background-repeat: no-repeat;
   transform: scale(-1, 1);
   min-width: 4.41rem; //70
@@ -29,6 +31,7 @@ div.custom-containder {
   &:hover {
     .g-arrow-right-top {
       background-image: url("./assets/img/industry_arrow_bottom.svg");
+      background-size: 100%;
     }
   }
 }
@@ -37,6 +40,7 @@ div.custom-containder {
   &:hover {
     .g-arrow-left-top {
       background-image: url("./assets/img/industry_arrow_bottom.svg");
+      background-size: 100%;
       transform: scale(-1, 1);
     }
   }
@@ -62,6 +66,12 @@ html {
 @media (max-width: 1200px) {
   html {
     font-size: 10px;
+  }
+}
+
+@media (max-width: 1100px) {
+  html {
+    font-size: 9px;
   }
 }
 

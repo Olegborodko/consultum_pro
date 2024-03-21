@@ -17,20 +17,20 @@ $img_src = get_template_directory_uri() . "/assets/img/";
     <div class="custom-containder buttom-block">
       <?php el_phone_block(); ?>
       <div class="google-r-block">
-        <img src="<?= $img_src ?>/google.svg"><br>
+        <img alt="google" src="<?= $img_src ?>/google.svg"><br>
         <span>Reviews</span><img class="stars" src="<?= $img_src ?>/stars.svg">
       </div>
       <div class="reviews-block">
-        <img class="stars" src="<?= $img_src ?>/stars.svg"><br>
+        <img alt="stars" class="stars" src="<?= $img_src ?>/stars.svg"><br>
         <span>2,156 reviews</span>
       </div>
       <div class="trustpilot-block">
-        <img src="<?= $img_src ?>/trust.svg"><br>
+        <img alt="trustpilot" src="<?= $img_src ?>/trust.svg"><br>
         <span>2,156 reviews</span>
       </div>
       <div class="excellent-block">
         <span>Excellent</span><br>
-        <img src="<?= $img_src ?>/green_starts.svg">
+        <img alt="green stars" src="<?= $img_src ?>/green_stars.svg">
       </div>
       <?php el_social(); ?>
     </div>
@@ -40,12 +40,12 @@ $img_src = get_template_directory_uri() . "/assets/img/";
   <div class="custom-containder five-block">
     <div class="five-block-left">
       <div class="div-2">Excellent</div>
-      <img loading="lazy" src="<?= $img_src ?>/green_starts.svg" class="img" />
+      <img alt="green stars" loading="lazy" src="<?= $img_src ?>/green_stars.svg" class="img" />
       <div class="div-3">
         <div class="div-4">Based on</div>
         <div class="div-5">2,156 reviews</div>
       </div>
-      <img loading="lazy" src="<?= $img_src ?>/trust_black.svg" class="img-2" />
+      <img alt="trustpilot icon" loading="lazy" src="<?= $img_src ?>/trust_black.svg" class="img-2" />
     </div>
     <?php el_box_review(
       "Professional and Timely Service",
@@ -209,7 +209,7 @@ $img_src = get_template_directory_uri() . "/assets/img/";
     <div class="steps-block">
       <div class="step">
         <div class="after-img">
-          <img src="<?= $img_src ?>/step_1.svg" alt="step 1">
+          <img alt="01 Step" src="<?= $img_src ?>/step_1.svg" alt="step 1">
         </div>
         <div class="desc">
           Fill out and submit our online form
@@ -217,7 +217,7 @@ $img_src = get_template_directory_uri() . "/assets/img/";
       </div>
       <div class="step">
         <div class="after-img">
-          <img src="<?= $img_src ?>/step_2.svg" alt="step 2">
+          <img alt="02 Step" src="<?= $img_src ?>/step_2.svg" alt="step 2">
         </div>
         <div class="desc">
           Expert will be in touch to discuss the particulars of your business plan.
@@ -225,7 +225,7 @@ $img_src = get_template_directory_uri() . "/assets/img/";
       </div>
       <div class="step">
         <div class="after-img">
-          <img src="<?= $img_src ?>/step_3.svg" alt="step 3">
+          <img alt="03 Step" src="<?= $img_src ?>/step_3.svg" alt="step 3">
         </div>
         <div class="desc">
           We will issue a draft of your business days within 10-15 days.
@@ -233,7 +233,7 @@ $img_src = get_template_directory_uri() . "/assets/img/";
       </div>
       <div class="step">
         <div class="after-img">
-          <img src="<?= $img_src ?>/step_4.svg" alt="step 4">
+          <img alt="04 Step" src="<?= $img_src ?>/step_4.svg" alt="step 4">
         </div>
         <div class="desc">
           After carefully considering your clients and making all necessary revisions, we will issue the final version
@@ -261,13 +261,13 @@ $img_src = get_template_directory_uri() . "/assets/img/";
         <div class="excellent-review">
           <div class="div-2">
             <div class="div-3">Excellent</div>
-            <img loading="lazy" src="<?= $img_src ?>/stars.svg" class="img" />
+            <img alt="stars" loading="lazy" src="<?= $img_src ?>/stars.svg" class="img" />
           </div>
           <div class="div-4">
             <div class="div-5">Based on</div>
             <div class="div-6">2,156 reviews</div>
           </div>
-          <img loading="lazy" src="<?= $img_src ?>/google.svg" class="img-2" />
+          <img alt="google" loading="lazy" src="<?= $img_src ?>/google.svg" class="img-2" />
         </div>
       </div>
     </div>
@@ -284,7 +284,7 @@ $img_src = get_template_directory_uri() . "/assets/img/";
   <div class="custom-containder inside-block">
     <div class="desc">
       <h2>Frequently Asked Questions</h2>
-      <img src="<?= $img_src ?>/faq.png" alt="faq" />
+      <img alt="faq" src="<?= $img_src ?>/faq.png" alt="faq" />
     </div>
     <div class="faq">
       <?php
@@ -347,7 +347,7 @@ $img_src = get_template_directory_uri() . "/assets/img/";
     <div class="form">
       <?php echo do_shortcode('[contact-form-7 id="f9a6808" title="home_page"]'); ?>
     </div>
-    <div>
+  </div>
 </section>
 <?php
 get_footer();

@@ -5,9 +5,9 @@ function el_box_review($title, $desc, $name, $time_text, $status = "Verified")
   ?>
   <div class="el-box-review">
     <div class="div-2">
-      <img loading="lazy" src="<?= $img_src ?>/green_starts.svg" class="img" />
+      <img alt="green stars" loading="lazy" src="<?= $img_src ?>/green_stars.svg" class="img" />
       <div class="div-3">
-        <img loading="lazy" src="<?= $img_src ?>/verified.png" class="img-2" />
+        <img alt="verified" loading="lazy" src="<?= $img_src ?>/verified.png" class="img-2" />
         <div class="div-4">
           <?= $status ?>
         </div>

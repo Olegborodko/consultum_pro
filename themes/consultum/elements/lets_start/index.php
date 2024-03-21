@@ -6,7 +6,7 @@ function el_lets_start($title, $link)
   ?>
   <a href="<?=$link?>" class="el-lets-start">
     <div class="div-2"><?= $title ?></div>
-    <img loading="lazy" alt="" src="<?=$img_src?>/row_right.svg" class="img" />
+    <img loading="lazy" alt="right arrow" src="<?=$img_src?>/row_right.svg" class="img" />
   </a>
   <?php
 }

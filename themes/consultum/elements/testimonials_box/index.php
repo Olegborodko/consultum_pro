@@ -14,9 +14,9 @@ function el_testimonials_box()
           <div class="div-7">02-02-2024</div>
         </div>
       </div>
-      <img loading="lazy" src="<?= $img_src ?>/testim_google.svg" class="img" />
+      <img alt="google min" loading="lazy" src="<?= $img_src ?>/testim_google.svg" class="img" />
     </div>
-    <img loading="lazy" src="<?= $img_src ?>/stars.svg" class="img-2" />
+    <img alt="stars" loading="lazy" src="<?= $img_src ?>/stars.svg" class="img-2" />
     <div class="div-8">
       Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
       consectetur, adipisci velit, sed qu

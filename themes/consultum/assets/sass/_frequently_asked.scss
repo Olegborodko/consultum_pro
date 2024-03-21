@@ -67,7 +67,7 @@ section.frequently-asked {
       text-align: left;
 
       &::after {
-        background-image: url("./assets/img/plus.png");
+        background-image: url("./assets/img/plus.webp");
         transform: scale(.7) !important;
         position: absolute;
         right: 1.512rem;
@@ -79,7 +79,7 @@ section.frequently-asked {
         box-shadow: initial;
 
         &::after {
-          background-image: url("./assets/img/minus.png");
+          background-image: url("./assets/img/minus.webp");
         }
       }
     }

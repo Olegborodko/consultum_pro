@@ -9,7 +9,7 @@ section.any-questions {
   .any-questions-block {
     display: flex;
 
-    background-image: url("./assets/img/get_in.png");
+    background-image: url("./assets/img/get_in.webp");
     background-repeat: no-repeat;
     background-size: 35.406rem 32.13rem;
     background-position-x: left;
@@ -100,14 +100,14 @@ section.any-questions {
 
   span[data-name='your-name'] {
     &:after {
-      background-image: url("./assets/img/mdi_account.png");
+      background-image: url("./assets/img/mdi_account.webp");
       background-size: 100%;
     }
   }
 
   span[data-name='phone-num'] {
     &:after {
-      background-image: url("./assets/img/ph_phone-fill.png");
+      background-image: url("./assets/img/ph_phone-fill.webp");
       background-size: 100%;
     }
   }
@@ -116,7 +116,7 @@ section.any-questions {
     margin-bottom: 2.52rem;
 
     &:after {
-      background-image: url("./assets/img/ic_round-email.png");
+      background-image: url("./assets/img/ic_round-email.webp");
       background-size: 100%;
     }
   }

@@ -629,7 +629,7 @@ html {
 }
 
 section.banner {
-  background-image: url("./assets/img/hero_section.jpg");
+  background-image: url("./assets/img/hero_section.webp");
   background-size: cover;
   background-position: top;
   border-radius: 0 0 4.41rem 4.41rem;
@@ -867,7 +867,7 @@ section.business-plans h2 span {
   font-style: italic;
 }
 section.business-plans .business-plans-block {
-  background-image: url("./assets/img/smiling-woman-with-flag.png");
+  background-image: url("./assets/img/smiling-woman-with-flag.webp");
   background-repeat: no-repeat;
   background-size: 37.359rem 42.651rem;
   background-position: right bottom;
@@ -995,13 +995,13 @@ section.immigration-busines .i-box {
   border-radius: 2.52rem;
 }
 section.immigration-busines .i-box:first-child {
-  background-image: url("./assets/img/immigration1.png");
+  background-image: url("./assets/img/immigration1.webp");
 }
 section.immigration-busines .i-box:nth-child(2) {
-  background-image: url("./assets/img/immigration2.png");
+  background-image: url("./assets/img/immigration2.webp");
 }
 section.immigration-busines .i-box:nth-child(3) {
-  background-image: url("./assets/img/immigration3.png");
+  background-image: url("./assets/img/immigration3.webp");
 }
 section.immigration-busines .i-box:hover {
   -webkit-box-shadow: 0rem 0rem 1.071rem 0rem rgba(0, 0, 0, 0.4);
@@ -1353,7 +1353,7 @@ section.frequently-asked .faq .accordion-button {
   text-align: left;
 }
 section.frequently-asked .faq .accordion-button::after {
-  background-image: url("./assets/img/plus.png");
+  background-image: url("./assets/img/plus.webp");
   transform: scale(0.7) !important;
   position: absolute;
   right: 1.512rem;
@@ -1364,7 +1364,7 @@ section.frequently-asked .faq .accordion-button:not(.collapsed) {
   box-shadow: initial;
 }
 section.frequently-asked .faq .accordion-button:not(.collapsed)::after {
-  background-image: url("./assets/img/minus.png");
+  background-image: url("./assets/img/minus.webp");
 }
 @media screen and (max-width: 1000px) {
   section.frequently-asked .inside-block {
@@ -1398,7 +1398,7 @@ section.any-questions {
 }
 section.any-questions .any-questions-block {
   display: flex;
-  background-image: url("./assets/img/get_in.png");
+  background-image: url("./assets/img/get_in.webp");
   background-repeat: no-repeat;
   background-size: 35.406rem 32.13rem;
   background-position-x: left;
@@ -1483,18 +1483,18 @@ section.any-questions span[data-name=your-email] input {
   position: relative;
 }
 section.any-questions span[data-name=your-name]:after {
-  background-image: url("./assets/img/mdi_account.png");
+  background-image: url("./assets/img/mdi_account.webp");
   background-size: 100%;
 }
 section.any-questions span[data-name=phone-num]:after {
-  background-image: url("./assets/img/ph_phone-fill.png");
+  background-image: url("./assets/img/ph_phone-fill.webp");
   background-size: 100%;
 }
 section.any-questions span[data-name=your-email] {
   margin-bottom: 2.52rem;
 }
 section.any-questions span[data-name=your-email]:after {
-  background-image: url("./assets/img/ic_round-email.png");
+  background-image: url("./assets/img/ic_round-email.webp");
   background-size: 100%;
 }
 section.any-questions .wpcf7-not-valid-tip {

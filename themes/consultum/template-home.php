@@ -18,7 +18,7 @@ $img_src = get_template_directory_uri() . "/assets/img/";
       <?php el_phone_block(); ?>
       <div class="google-r-block">
         <img alt="google" src="<?= $img_src ?>/google.svg"><br>
-        <span>Reviews</span><img class="stars" src="<?= $img_src ?>/stars.svg">
+        <span>Reviews</span><img alt="stars" class="stars" src="<?= $img_src ?>/stars.svg">
       </div>
       <div class="reviews-block">
         <img alt="stars" class="stars" src="<?= $img_src ?>/stars.svg"><br>
@@ -166,7 +166,7 @@ $img_src = get_template_directory_uri() . "/assets/img/";
 </section>
 <section class="immigration-busines">
   <h2>
-    <div>Immigration business plan <span>sample</span></div>
+    Immigration business plan <span>sample</span>
   </h2>
   <div class="immigration-block">
     <a class="i-box g-arrow-left-top-hover">
@@ -209,7 +209,7 @@ $img_src = get_template_directory_uri() . "/assets/img/";
     <div class="steps-block">
       <div class="step">
         <div class="after-img">
-          <img alt="01 Step" src="<?= $img_src ?>/step_1.svg" alt="step 1">
+          <img alt="01 Step" src="<?= $img_src ?>/step_1.svg">
         </div>
         <div class="desc">
           Fill out and submit our online form
@@ -217,7 +217,7 @@ $img_src = get_template_directory_uri() . "/assets/img/";
       </div>
       <div class="step">
         <div class="after-img">
-          <img alt="02 Step" src="<?= $img_src ?>/step_2.svg" alt="step 2">
+          <img alt="02 Step" src="<?= $img_src ?>/step_2.svg">
         </div>
         <div class="desc">
           Expert will be in touch to discuss the particulars of your business plan.
@@ -225,7 +225,7 @@ $img_src = get_template_directory_uri() . "/assets/img/";
       </div>
       <div class="step">
         <div class="after-img">
-          <img alt="03 Step" src="<?= $img_src ?>/step_3.svg" alt="step 3">
+          <img alt="03 Step" src="<?= $img_src ?>/step_3.svg">
         </div>
         <div class="desc">
           We will issue a draft of your business days within 10-15 days.
@@ -233,7 +233,7 @@ $img_src = get_template_directory_uri() . "/assets/img/";
       </div>
       <div class="step">
         <div class="after-img">
-          <img alt="04 Step" src="<?= $img_src ?>/step_4.svg" alt="step 4">
+          <img alt="04 Step" src="<?= $img_src ?>/step_4.svg">
         </div>
         <div class="desc">
           After carefully considering your clients and making all necessary revisions, we will issue the final version
@@ -284,7 +284,7 @@ $img_src = get_template_directory_uri() . "/assets/img/";
   <div class="custom-containder inside-block">
     <div class="desc">
       <h2>Frequently Asked Questions</h2>
-      <img alt="faq" src="<?= $img_src ?>/faq.png" alt="faq" />
+      <img alt="faq" src="<?= $img_src ?>/faq.png" />
     </div>
     <div class="faq">
       <?php

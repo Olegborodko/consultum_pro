@@ -350,5 +350,5 @@ $img_src = get_template_directory_uri() . "/assets/img/";
     <div>
 </section>
 <?php
-// get_footer();
+get_footer();
 ?>

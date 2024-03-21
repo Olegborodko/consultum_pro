@@ -1,13 +1,13 @@
 footer.site-footer {
   background-color: #B8DFF0;
-  padding-top: 10px;
+  padding-top: 0.63rem;
 
   .top {
-    padding-bottom: 10px;
+    padding-bottom: 0.63rem;
   }
 
   .el-social {
-    margin-top: 69px;
+    margin-top: 4.347rem;
   }
 
   .footer-menu {
@@ -17,9 +17,9 @@ footer.site-footer {
     a {
       display: inline-block;
       text-decoration: none;
-      font: 500 18px Work Sans, sans-serif;
+      font: 500 1.134rem Work Sans, sans-serif;
       color: #666B81;
-      padding-bottom: 22px;
+      padding-bottom: 1.386rem;
     }
 
     li:last-child a {
@@ -28,45 +28,23 @@ footer.site-footer {
   }
 
   .industry-title {
-    font: 500 24px Work Sans, sans-serif;
+    font: 500 1.512rem Work Sans, sans-serif;
     font-style: italic;
-    padding-bottom: 22px;
+    padding-bottom: 1.386rem;
   }
 
   .menu-footer_4-container {
-    padding-top: 48px;
+    padding-top: 3.024rem;
   }
 
   .col:first-child {
-    min-width: 416px;
-    padding-right: 100px;
+    min-width: 26.208rem;
+    padding-right: 6.3rem;
   }
 
   .col {
-    padding-top: 35px;
-    min-width: 245px;
-  }
-
-  @media screen and (max-width: 1400px) {
-    .menu-footer_4-container {
-      padding-top: 0;
-    }
-  }
-
-  @media screen and (max-width: 600px) {
-    .col:first-child {
-      padding-right: 16px;
-      min-width: initial;
-    }
-
-    .el-phone-block {
-      margin: 0 auto;
-    }
-
-    .el-social {
-      display: flex;
-      justify-content: center;
-    }
+    padding-top: 2.205rem;
+    min-width: 15.435rem;
   }
 
   .center {
@@ -75,12 +53,12 @@ footer.site-footer {
 
   .buttom {
     background-color: #B8DFF0;
-    min-height: 50px;
+    min-height: 3.15rem;
     color: #6373B58F;
     font-family: Work Sans;
-    font-size: 14px;
+    font-size: 0.882rem;
     font-weight: 300;
-    line-height: 16px;
+    line-height: 1.008rem;
     letter-spacing: 0%;
     text-align: center;
     display: flex;
@@ -89,7 +67,7 @@ footer.site-footer {
 
     span {
       display: inline-block;
-      padding-right: 14px;
+      padding-right: 0.882rem;
     }
   }
 
@@ -105,10 +83,10 @@ footer.site-footer {
       .title {
         color: #B8DFF0;
         font-family: Work Sans;
-        font-size: 24px;
+        font-size: 1.512rem;
         font-weight: 500;
         text-align: left;
-        margin-right: 40px;
+        margin-right: 2.52rem;
       }
 
       .subscribe-btn {
@@ -116,12 +94,12 @@ footer.site-footer {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding: 24px 40px 24px 40px;
-        border-radius: 100px;
+        padding: 1.512rem 2.52rem 1.512rem 2.52rem;
+        border-radius: 6.3rem;
         background: #6373B5;
         color: #ffffff;
         font-family: Work Sans;
-        font-size: 18px;
+        font-size: 1.134rem;
         font-weight: 600;
         letter-spacing: 4%;
         text-align: center;
@@ -131,26 +109,52 @@ footer.site-footer {
     }
 
     .el-consultum-logo {
-      padding: 38px 0;
+      padding: 2.394rem 0;
     }
   }
 
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 1000px) {
+
+    //1000
+    .col:first-child {
+      padding-right: 3rem;
+      min-width: initial;
+    }
+
+    .el-phone-block {
+      margin: 0 auto;
+    }
+
+    .el-social {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+
+    //600
+    .menu-footer_4-container {
+      padding-top: 0;
+    }
+
     .center-block {
       flex-direction: column;
     }
 
-    .subscribe-block{
-      padding-bottom: 20px;
+    .subscribe-block {
+      padding-bottom: 1.26rem;
     }
   }
 
   @media screen and (max-width: 460px) {
-    .subscribe-block{
+
+    //460
+    .center-block .subscribe-block {
       flex-direction: column;
 
-      .title{
-        padding-bottom: 20px;
+      .title {
+        padding-bottom: 1.26rem;
       }
     }
   }

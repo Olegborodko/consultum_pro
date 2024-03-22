@@ -639,13 +639,15 @@ section.banner .text {
   position: relative;
   padding: 20.664rem 1.008rem 10.899rem;
   margin: 0 auto;
+  max-width: 58.779rem;
+}
+section.banner .text h1 {
   text-align: left;
   color: #ffffff;
   font-family: Work Sans, sans-serif;
   font-size: 6.3rem;
   font-weight: 500;
   line-height: 120%;
-  max-width: 58.779rem;
 }
 section.banner .text span {
   background-color: #B8DFF0;
@@ -730,8 +732,10 @@ section.banner .excellent-block span {
     width: 100%;
   }
   section.banner .text {
-    font-size: 3.654rem;
     padding: 9rem 1.008rem 2rem;
+  }
+  section.banner .text h1 {
+    font-size: 3.654rem;
   }
   section.banner .text span {
     line-height: 4rem;
@@ -1563,6 +1567,93 @@ section.any-questions .wpcf7-submit .div-2 {
   }
   section.any-questions .contact-form-home {
     padding: 5.04rem 1.008rem;
+  }
+}
+
+section.banner-e1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  font-size: 1.512rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 10.08rem 1.008rem 1.89rem;
+  background-image: url("./assets/img/e1_visa_banner.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 0 4.41rem 4.41rem;
+}
+section.banner-e1 h1 {
+  color: var(--white, #fff);
+  align-self: stretch;
+  font: 5.04rem/110% Work Sans, sans-serif;
+  font-weight: 500;
+  padding-bottom: 1.386rem;
+}
+section.banner-e1 .desc {
+  color: var(--white, #fff);
+  font-family: Work Sans, sans-serif;
+  font-weight: 400;
+  line-height: 1.827rem;
+  max-width: 24.759rem;
+  padding-bottom: 3.78rem;
+}
+section.banner-e1 .btn {
+  font-family: Work Sans, sans-serif;
+  justify-content: center;
+  border-radius: 6.3rem;
+  box-shadow: 0rem 0.63rem 3.78rem 0rem rgba(3, 41, 46, 0.12);
+  background-color: var(--white, #fff);
+  color: #526498;
+  text-transform: uppercase;
+  padding: 1.25rem 3.024rem;
+  font-weight: 600;
+  margin-bottom: 1.89rem;
+}
+section.banner-e1 .approval-rate {
+  color: #b8dff0;
+  font-family: Work Sans, sans-serif;
+  line-height: 160%;
+  margin-bottom: 5.103rem;
+}
+section.banner-e1 .approval-rate .first {
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+}
+section.banner-e1 .approval-rate .last {
+  font-weight: 700;
+  color: rgb(184, 223, 240);
+  text-decoration: none;
+}
+section.banner-e1 .breadcrumbs {
+  justify-content: center;
+  display: flex;
+  gap: 0.063rem;
+  font-size: 0.882rem;
+  color: var(--BG-fiolet, #ebecf2);
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 100%;
+}
+section.banner-e1 .home {
+  color: var(--blue-primary, #b8dff0);
+  font-family: Work Sans, sans-serif;
+  text-decoration-line: underline;
+}
+section.banner-e1 .slash {
+  font-family: Work Sans, sans-serif;
+  letter-spacing: 0.03528rem;
+}
+section.banner-e1 .page {
+  font-family: Work Sans, sans-serif;
+}
+@media screen and (max-width: 800px) {
+  section.banner-e1 {
+    padding: 10.08rem 1.008rem 1.89rem;
+  }
+  section.banner-e1 h1 {
+    font-size: 3.654rem;
   }
 }
 

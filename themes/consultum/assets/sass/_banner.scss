@@ -9,14 +9,16 @@ section.banner {
     position: relative;
     padding: 20.664rem 1.008rem 10.899rem;
     margin: 0 auto;
-    text-align: left;
-
-    color: #ffffff;
-    font-family: Work Sans, sans-serif;
-    font-size: 6.3rem;
-    font-weight: 500;
-    line-height: 120%;
     max-width: 58.779rem;
+
+    h1 {
+      text-align: left;
+      color: #ffffff;
+      font-family: Work Sans, sans-serif;
+      font-size: 6.3rem;
+      font-weight: 500;
+      line-height: 120%;
+    }
 
     span {
       background-color: #B8DFF0;
@@ -124,8 +126,11 @@ section.banner {
     }
 
     .text {
-      font-size: 3.654rem;
       padding: 9rem 1.008rem 2rem;
+
+      h1{
+        font-size: 3.654rem;
+      }
 
       span {
         // padding: 0 0.63rem 0 0.63rem;

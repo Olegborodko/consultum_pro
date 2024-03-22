@@ -1,0 +1,95 @@
+section.banner-e1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  font-size: 1.512rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 10.08rem 1.008rem 1.89rem;
+  background-image: url("./assets/img/e1_visa_banner.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 0 4.41rem 4.41rem;
+
+  h1 {
+    color: var(--white, #fff);
+    align-self: stretch;
+    font: 5.04rem/110% Work Sans, sans-serif;
+    font-weight: 500;
+    padding-bottom: 1.386rem;
+  }
+
+  .desc {
+    color: var(--white, #fff);
+    font-family: Work Sans, sans-serif;
+    font-weight: 400;
+    line-height: 1.827rem;
+    max-width: 24.759rem;
+    padding-bottom: 3.78rem;
+  }
+
+  .btn {
+    font-family: Work Sans, sans-serif;
+    justify-content: center;
+    border-radius: 6.3rem;
+    box-shadow: 0rem 0.63rem 3.78rem 0rem rgba(3, 41, 46, 0.12);
+    background-color: var(--white, #fff);
+    color: #526498;
+    text-transform: uppercase;
+    padding: 1.25rem 3.024rem;
+    font-weight: 600;
+    margin-bottom: 1.89rem;
+  }
+
+  .approval-rate {
+    color: #b8dff0;
+    font-family: Work Sans, sans-serif;
+    line-height: 160%;
+    margin-bottom: 5.103rem;
+
+    .first {
+      font-weight: 500;
+      color: rgba(255, 255, 255, 1);
+    }
+
+    .last {
+      font-weight: 700;
+      color: rgba(184, 223, 240, 1);
+      text-decoration: none;
+    }
+  }
+
+  .breadcrumbs {
+    justify-content: center;
+    display: flex;
+    gap: 0.063rem;
+    font-size: 0.882rem;
+    color: var(--BG-fiolet, #ebecf2);
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 100%;
+  }
+
+  .home {
+    color: var(--blue-primary, #b8dff0);
+    font-family: Work Sans, sans-serif;
+    text-decoration-line: underline;
+  }
+
+  .slash {
+    font-family: Work Sans, sans-serif;
+    letter-spacing: 0.03528rem;
+  }
+
+  .page {
+    font-family: Work Sans, sans-serif;
+  }
+
+  @media screen and (max-width: 800px) {
+    padding: 10.08rem 1.008rem 1.89rem;
+    h1{
+      font-size: 3.654rem;
+    }
+  }
+}

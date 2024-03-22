@@ -38,7 +38,7 @@
   },
   "scripts": {
     "rtl": "rtlcss style.css style-rtl.css",
-    "watch": "onchange './assets/sass/*.scss' './elements/**/*' -- npm run css",
+    "watch": "onchange './assets/sass/*.scss' './assets/sass/e1/*.scss' './elements/**/*' -- npm run css",
     "css": "sass --no-source-map ./assets/sass/main.scss ./style.css"
   }
 }

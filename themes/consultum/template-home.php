@@ -9,8 +9,10 @@ $img_src = get_template_directory_uri() . "/assets/img/";
 ?>
 <section class="banner">
   <div class="text">
-    Your reliable partner in writing a
-    <span>business plan</span>
+    <h1>
+      Your reliable partner in writing a
+      <span>business plan</span>
+    </h1>
     <?php el_lets_start('Lets start', '#') ?>
   </div>
   <div class="buttom">

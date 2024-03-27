@@ -1657,6 +1657,104 @@ section.banner-e1 .page {
   }
 }
 
+section.what-is-e1 {
+  position: relative;
+  padding: 5.04rem 0 0;
+}
+section.what-is-e1 h2 {
+  font-family: Work Sans;
+  font-size: 5.04rem;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 0 1.008rem;
+}
+section.what-is-e1 h2 span {
+  color: rgb(99, 115, 181);
+}
+section.what-is-e1 .desc {
+  color: rgb(102, 107, 129);
+  font-family: Work Sans;
+  font-size: 1.134rem;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+  max-width: 50.4rem;
+  padding: 1.26rem 1.008rem 1.89rem;
+}
+section.what-is-e1 .desc:after {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 34.272rem;
+  height: 42.525rem;
+  background-image: url("./assets/img/young_man_with_flag.webp");
+  background-size: 100%;
+  bottom: 5.332rem;
+  left: 67rem;
+  z-index: 1;
+}
+section.what-is-e1 .pdf-block {
+  background-color: #6373B5;
+  min-height: 6.93rem;
+}
+section.what-is-e1 .pdf-inside {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 6.93rem;
+}
+section.what-is-e1 .pdf-img {
+  padding-right: 1rem;
+  width: 5.67rem;
+}
+section.what-is-e1 .upload-img {
+  width: 4.41rem;
+}
+section.what-is-e1 .pdf-link {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 2.016rem;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+}
+section.what-is-e1 .pdf-link span {
+  padding-right: 2.52rem;
+}
+@media screen and (max-width: 1000px) {
+  section.what-is-e1 .desc {
+    max-width: 100%;
+    padding-bottom: 23.94rem;
+  }
+  section.what-is-e1 .desc:after {
+    width: 18.9rem;
+    height: 23.436rem;
+    right: 0.63rem;
+    left: initial;
+    bottom: initial;
+  }
+}
+@media screen and (max-width: 600px) {
+  section.what-is-e1 h2 {
+    font-size: 3.654rem;
+  }
+  section.what-is-e1 .pdf-img {
+    width: 60px;
+  }
+  section.what-is-e1 .upload-img {
+    width: 40px;
+  }
+  section.what-is-e1 .pdf-link span {
+    font-size: 20px;
+    line-height: 0;
+  }
+}
+
 footer.site-footer {
   background-color: #B8DFF0;
   padding-top: 0.63rem;
@@ -1777,6 +1875,9 @@ footer.site-footer .center-block .el-consultum-logo {
   }
   footer.site-footer .subscribe-block {
     padding-bottom: 1.26rem;
+  }
+  footer.site-footer .col:first-child {
+    padding-right: initial;
   }
 }
 @media screen and (max-width: 460px) {

@@ -145,6 +145,10 @@ footer.site-footer {
     .subscribe-block {
       padding-bottom: 1.26rem;
     }
+
+    .col:first-child {
+      padding-right: initial;
+    }
   }
 
   @media screen and (max-width: 460px) {

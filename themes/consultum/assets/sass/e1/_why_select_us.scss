@@ -1,0 +1,92 @@
+section.why-select-us {
+  padding: 6.615rem 0 6.3rem;
+
+  h2 {
+    color: rgb(8, 12, 27);
+    font-family: Work Sans;
+    font-size: 5.04rem;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+
+  .delivering-box {
+    align-items: center;
+    border-radius: 6.3rem;
+    background-color: var(--black, #080c1b);
+    display: flex;
+    max-width: 55.755rem;
+    font-size: 1.512rem;
+    justify-content: center;
+    padding: 1.764rem 8rem;
+    gap: 1.26rem;
+
+    .text {
+      color: var(--white, #fff);
+      font-family: Work Sans, sans-serif;
+      font-weight: 400;
+      line-height: 2.142rem;
+      max-width: 28.98rem;
+      position: relative;
+      top: 0.504rem;
+    }
+
+    .visas {
+      color: var(--blue-primary, #b8dff0);
+      text-align: center;
+      font-family: Work Sans, sans-serif;
+      font-weight: 700;
+      line-height: 160%;
+      margin: auto 0;
+      white-space: nowrap;
+      position: relative;
+      top: 0.756rem;
+    }
+  }
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.89rem;
+  }
+
+  .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.89rem;
+
+    .el-why-select-us-box {
+      padding-top: 1.89rem;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+
+    //1000
+    .top {
+      flex-direction: column;
+    }
+
+    h2 {
+      padding-bottom: 1.26rem;
+    }
+
+    .delivering-box {
+      margin: 0 auto;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    //600
+
+    h2 {
+      font-size: 3.654rem;
+    }
+
+    .delivering-box{
+      flex-direction: column;
+      padding: 1.764rem 2rem;
+    }
+  }
+}

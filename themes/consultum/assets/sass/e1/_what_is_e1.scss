@@ -26,6 +26,7 @@ section.what-is-e1 {
     text-align: left;
     max-width: 50.4rem;
     padding: 1.26rem 1.008rem 1.89rem;
+    position: relative;
 
     &:after {
       display: block;
@@ -35,7 +36,7 @@ section.what-is-e1 {
       height: 42.525rem;
       background-image: url("./assets/img/young_man_with_flag.webp");
       background-size: 100%;
-      bottom: 5.332rem;
+      bottom: -1.26rem;
       left: 67rem;
       z-index: 1;
     }
@@ -74,6 +75,16 @@ section.what-is-e1 {
 
     span {
       padding-right: 2.52rem;
+    }
+  }
+
+  @media screen and (min-width: 1930px) {
+    .desc {
+      &:after {
+        left: 110%;
+        
+        z-index: 1;
+      }
     }
   }
 

@@ -371,6 +371,48 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
   box-shadow: 0rem 0.63rem 2.835rem 0rem rgba(99, 115, 181, 0.25);
 }
 
+.el-why-select-us-box {
+  max-width: 32.76rem;
+  gap: 1.26rem;
+  display: flex;
+}
+.el-why-select-us-box .column {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 23%;
+  margin-left: 0rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0.63rem;
+}
+.el-why-select-us-box .img {
+  aspect-ratio: 1;
+  object-fit: auto;
+  object-position: center;
+  width: 6.174rem;
+  background-color: var(--BG-fiolet, #ebecf2);
+  border-radius: 50%;
+  height: 6.174rem;
+}
+.el-why-select-us-box .column-2 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 77%;
+  margin-left: 0.315rem;
+  flex-grow: 1;
+}
+.el-why-select-us-box .title {
+  color: #080c1b;
+  font: 600 1.638rem/120% Work Sans, sans-serif;
+}
+.el-why-select-us-box .desc {
+  color: var(--text, #666b81);
+  margin-top: 0.882rem;
+  font: 400 1.134rem/1.827rem Work Sans, sans-serif;
+}
+
 body,
 html {
   margin: 0;
@@ -1683,6 +1725,7 @@ section.what-is-e1 .desc {
   text-align: left;
   max-width: 50.4rem;
   padding: 1.26rem 1.008rem 1.89rem;
+  position: relative;
 }
 section.what-is-e1 .desc:after {
   display: block;
@@ -1692,7 +1735,7 @@ section.what-is-e1 .desc:after {
   height: 42.525rem;
   background-image: url("./assets/img/young_man_with_flag.webp");
   background-size: 100%;
-  bottom: 5.332rem;
+  bottom: -1.26rem;
   left: 67rem;
   z-index: 1;
 }
@@ -1726,6 +1769,12 @@ section.what-is-e1 .pdf-link {
 section.what-is-e1 .pdf-link span {
   padding-right: 2.52rem;
 }
+@media screen and (min-width: 1930px) {
+  section.what-is-e1 .desc:after {
+    left: 110%;
+    z-index: 1;
+  }
+}
 @media screen and (max-width: 1000px) {
   section.what-is-e1 .desc {
     max-width: 100%;
@@ -1752,6 +1801,83 @@ section.what-is-e1 .pdf-link span {
   section.what-is-e1 .pdf-link span {
     font-size: 20px;
     line-height: 0;
+  }
+}
+
+section.why-select-us {
+  padding: 6.615rem 0 6.3rem;
+}
+section.why-select-us h2 {
+  color: rgb(8, 12, 27);
+  font-family: Work Sans;
+  font-size: 5.04rem;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+section.why-select-us .delivering-box {
+  align-items: center;
+  border-radius: 6.3rem;
+  background-color: var(--black, #080c1b);
+  display: flex;
+  max-width: 55.755rem;
+  font-size: 1.512rem;
+  justify-content: center;
+  padding: 1.764rem 8rem;
+  gap: 1.26rem;
+}
+section.why-select-us .delivering-box .text {
+  color: var(--white, #fff);
+  font-family: Work Sans, sans-serif;
+  font-weight: 400;
+  line-height: 2.142rem;
+  max-width: 28.98rem;
+  position: relative;
+  top: 0.504rem;
+}
+section.why-select-us .delivering-box .visas {
+  color: var(--blue-primary, #b8dff0);
+  text-align: center;
+  font-family: Work Sans, sans-serif;
+  font-weight: 700;
+  line-height: 160%;
+  margin: auto 0;
+  white-space: nowrap;
+  position: relative;
+  top: 0.756rem;
+}
+section.why-select-us .top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1.89rem;
+}
+section.why-select-us .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.89rem;
+}
+section.why-select-us .boxes .el-why-select-us-box {
+  padding-top: 1.89rem;
+}
+@media screen and (max-width: 1000px) {
+  section.why-select-us .top {
+    flex-direction: column;
+  }
+  section.why-select-us h2 {
+    padding-bottom: 1.26rem;
+  }
+  section.why-select-us .delivering-box {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  section.why-select-us h2 {
+    font-size: 3.654rem;
+  }
+  section.why-select-us .delivering-box {
+    flex-direction: column;
+    padding: 1.764rem 2rem;
   }
 }
 

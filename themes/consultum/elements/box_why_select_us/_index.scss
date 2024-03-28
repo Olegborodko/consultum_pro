@@ -1,0 +1,46 @@
+.el-why-select-us-box {
+  max-width: 32.76rem;
+  gap: 1.26rem;
+  display: flex;
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 23%;
+    margin-left: 0rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0.63rem;
+  }
+
+  .img {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 6.174rem;
+    background-color: var(--BG-fiolet, #ebecf2);
+    border-radius: 50%;
+    height: 6.174rem;
+  }
+
+  .column-2 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 77%;
+    margin-left: 0.315rem;
+    flex-grow: 1;
+  }
+
+  .title {
+    color: #080c1b;
+    font: 600 1.638rem/120% Work Sans, sans-serif;
+  }
+
+  .desc {
+    color: var(--text, #666b81);
+    margin-top: 0.882rem;
+    font: 400 1.134rem/1.827rem Work Sans, sans-serif;
+  }
+}

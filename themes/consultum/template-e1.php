@@ -65,6 +65,27 @@ $img_src = get_template_directory_uri() . "/assets/img/";
     </div>
   </div>
 </section>
+<section class="why-select-us">
+  <div class="custom-containder">
+    <div class="top">
+      <h2>Why select us?</h2>
+      <div class="delivering-box">
+        <div class="text">
+          Delivering expertise nurtured across a multitude of visas and businesses.
+        </div>
+        <div class="visas">+2,500 visas</div>
+      </div>
+    </div>
+    <div class="boxes">
+    <?php el_why_select_us_box("Built for USCIS", "Each document is presented in the manner preferred by USCIS, based on our vast experience.", $img_src."/wh1.webp") ?>
+    <?php el_why_select_us_box("Visa Approval", "We have a long track record of achieving visa approvals. We know what works, and what doesn't.", $img_src."/wh2.webp") ?>
+    <?php el_why_select_us_box("RFE's Experience", "Your application got rejected by USCIS. We know exactly how to respond to USCIS.", $img_src."/wh3.webp") ?>
+    <?php el_why_select_us_box("Application Focus", "The final business plan is updated in order to be consistent with your visa application.", $img_src."/wh4.webp") ?>
+    <?php el_why_select_us_box("Non Generic", "Individuality is key for visa applications. We produce each document from scratch.", $img_src."/wh5.webp") ?>
+    <?php el_why_select_us_box("User Friendly", "Easy to read, easy to understand for immigration officers - no matter how intricate your industry is.", $img_src."/wh6.webp") ?>
+    </div>
+  </div>
+</section>
 
 <?php
 get_footer();

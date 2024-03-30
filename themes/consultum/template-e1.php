@@ -77,12 +77,48 @@ $img_src = get_template_directory_uri() . "/assets/img/";
       </div>
     </div>
     <div class="boxes">
-    <?php el_why_select_us_box("Built for USCIS", "Each document is presented in the manner preferred by USCIS, based on our vast experience.", $img_src."/wh1.webp") ?>
-    <?php el_why_select_us_box("Visa Approval", "We have a long track record of achieving visa approvals. We know what works, and what doesn't.", $img_src."/wh2.webp") ?>
-    <?php el_why_select_us_box("RFE's Experience", "Your application got rejected by USCIS. We know exactly how to respond to USCIS.", $img_src."/wh3.webp") ?>
-    <?php el_why_select_us_box("Application Focus", "The final business plan is updated in order to be consistent with your visa application.", $img_src."/wh4.webp") ?>
-    <?php el_why_select_us_box("Non Generic", "Individuality is key for visa applications. We produce each document from scratch.", $img_src."/wh5.webp") ?>
-    <?php el_why_select_us_box("User Friendly", "Easy to read, easy to understand for immigration officers - no matter how intricate your industry is.", $img_src."/wh6.webp") ?>
+      <?php el_why_select_us_box("Built for USCIS", "Each document is presented in the manner preferred by USCIS, based on our vast experience.", $img_src . "/wh1.webp") ?>
+      <?php el_why_select_us_box("Visa Approval", "We have a long track record of achieving visa approvals. We know what works, and what doesn't.", $img_src . "/wh2.webp") ?>
+      <?php el_why_select_us_box("RFE's Experience", "Your application got rejected by USCIS. We know exactly how to respond to USCIS.", $img_src . "/wh3.webp") ?>
+      <?php el_why_select_us_box("Application Focus", "The final business plan is updated in order to be consistent with your visa application.", $img_src . "/wh4.webp") ?>
+      <?php el_why_select_us_box("Non Generic", "Individuality is key for visa applications. We produce each document from scratch.", $img_src . "/wh5.webp") ?>
+      <?php el_why_select_us_box("User Friendly", "Easy to read, easy to understand for immigration officers - no matter how intricate your industry is.", $img_src . "/wh6.webp") ?>
+    </div>
+  </div>
+</section>
+<section class="what-qualifications">
+  <div class="custom-containder">
+    <div class="what-qualifications-block">
+      <h2>
+        What are the Qualifications for an <span>E1 Trader Visa</span>
+      </h2>
+      <div class="desc">
+        To get it, you should satisfy all the E1 visa business plan requirements. There are various necessities for a
+        businessman or, on the other hand, in the event that you are a worker of a businessman. We should analyze the
+        requirements separately.
+
+        <h3>A Worker of Treaty Trader</h3>
+
+        Workers of a Treaty Trader are expected to have similar identity as them as they have the E1 treaty trader visa.
+        You
+        should likewise have had a chief or elevated position in the business. For the people who don't play a main role
+        in
+        the business, you will be expected to have various capabilities to ensure that your administrations are vital to
+        the
+        prosperity of the business.
+
+        <h3>Treaty Trader</h3>
+
+        It might be ideal in the event that you were a part of any of the 78 nations with which the U.S. has made a
+        deal.
+        It
+        is fundamental for both the nations to sign a deal of trade for you to be qualified. You should likewise take
+        part
+        in significant trading and proceed with the main trading between your nation and the U.S.
+
+        <h3>
+          You should keep at least half of the trade volume between your nation and the U.S.</h3>
+      </div>
     </div>
   </div>
 </section>

@@ -122,6 +122,65 @@ $img_src = get_template_directory_uri() . "/assets/img/";
     </div>
   </div>
 </section>
+<section class="our-solution">
+  <div class="custom-containder">
+    <div class="our-solution-block">
+      <div class="business-plan">
+        <h2>Our solution</h2>
+        <div class="desc">
+          Our tailored business plan will help you to get the E1 visa approval you need.
+        </div>
+        <h3>E1 visa business plan:</h3>
+        <div class="blocks">
+          <div class="box">
+            <h4>Users</h4>
+            <div class="text">E1 Visa applicants and immigration lawyers</div>
+          </div>
+          <div class="box">
+            <h4>Document size</h4>
+            <div class="text">25-30 pages</div>
+          </div>
+          <div class="box">
+            <h4>Timeframe</h4>
+            <div class="text">10-12 days</div>
+          </div>
+          <div class="box">
+            <h4>Assigned team</h4>
+            <div class="text">2 senior consultants with a team lead</div>
+          </div>
+          <div class="box">
+            <h4>Unlimited revision period</h4>
+            <div class="text">3 weeks</div>
+          </div>
+          <div class="box">
+            <h4>Graphic design</h4>
+            <div class="text">Included</div>
+          </div>
+          <div class="box">
+            <h4>Rush Delivery Service</h4>
+            <div class="text">Available</div>
+          </div>
+        </div>
+      </div>
+      <div class="document">
+        <h3>Document contents:</h3>
+        <ul>
+          <li>Executive Summary</li>
+          <li>Local Market Research</li>
+          <li>Industry and Competitive Analysis</li>
+          <li>Business Model</li>
+          <li>Products/Services Offering</li>
+          <li>Marketing Plan/Strategies</li>
+          <li>Involvement in international trade with<br> treaty countries</li>
+          <li>Organizational Chart</li>
+          <li>5-Year Financial Projections</li>
+          <li>Management Team</li>
+        </ul>
+        <?php el_btn("#", "Order now"); ?>
+      </div>
+    </div>
+  </div>
+</section>
 
 <?php
 get_footer();

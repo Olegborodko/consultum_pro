@@ -1929,6 +1929,165 @@ section.what-qualifications .what-qualifications-block {
   }
 }
 
+section.our-solution {
+  background-color: #EBECF2;
+  padding-top: 5.04rem;
+}
+section.our-solution h2 {
+  background-color: #B8DFF0;
+  border-radius: 3.15rem;
+  color: #6373b5;
+  font-style: italic;
+  padding: 0 1.89rem 0 0.63rem;
+  line-height: 7.119rem;
+  display: inline-block;
+  font-size: 5.04rem;
+  margin-bottom: 1.89rem;
+}
+section.our-solution .desc {
+  color: #666B81;
+  font-family: Work Sans;
+  font-size: 1.26rem;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 2.268rem;
+  max-width: 28.35rem;
+}
+section.our-solution h3 {
+  color: #526498;
+  font-family: Work Sans;
+  font-size: 2.016rem;
+  font-weight: 600;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-bottom: 0.63rem;
+}
+section.our-solution .box h4 {
+  color: #080C1B;
+  font-family: Work Sans;
+  font-size: 1.638rem;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+section.our-solution .box .text {
+  color: #666B81;
+  font-family: Work Sans;
+  font-size: 1.26rem;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+section.our-solution .document {
+  text-align: center;
+}
+section.our-solution .document h3 {
+  color: #6373B5;
+  font-family: Work Sans;
+  font-size: 2.52rem;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 1.26rem;
+}
+section.our-solution .document ul {
+  border-radius: 1.26rem;
+  background: #F7F7F9;
+  list-style-type: none;
+  padding: 3.15rem 6.867rem 4rem 6.93rem;
+  margin: 0;
+}
+section.our-solution .document ul li {
+  position: relative;
+  font-family: Work Sans;
+  font-size: 1.26rem;
+  font-weight: 400;
+  line-height: 140%;
+  text-align: left;
+  padding-left: 2.52rem;
+  padding-bottom: 1.26rem;
+}
+section.our-solution .document ul li:before {
+  left: 0;
+  top: 0.189rem;
+  content: "";
+  width: 1.575rem;
+  height: 1.512rem;
+  background-image: url("./assets/img/check.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: absolute;
+}
+section.our-solution .el-btn {
+  position: relative;
+  top: -2.583rem;
+  margin: 0 auto;
+  padding: 1.6rem 7.52rem;
+}
+section.our-solution .our-solution-block {
+  display: flex;
+  justify-content: space-between;
+  background-image: url("./assets/img/our_solution_lamp.svg");
+  background-size: 36.981rem 32.13rem;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+section.our-solution .blocks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.52rem 3.78rem;
+  max-width: 59.22rem;
+}
+section.our-solution .blocks .box {
+  width: 13.86rem;
+  overflow-wrap: break-word;
+}
+@media screen and (max-width: 900px) {
+  section.our-solution .our-solution-block {
+    flex-direction: column;
+  }
+  section.our-solution .document ul {
+    max-width: 50rem;
+    margin: 0 auto;
+  }
+  section.our-solution .document h3 {
+    padding-top: 2.52rem;
+  }
+  section.our-solution .business-plan {
+    text-align: center;
+  }
+  section.our-solution .desc {
+    margin: 0 auto 2.268rem;
+  }
+  section.our-solution h3 {
+    text-align: center;
+  }
+  section.our-solution .blocks {
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 600px) {
+  section.our-solution .document ul {
+    padding-left: 1.26rem;
+    padding-right: 1.26rem;
+  }
+  section.our-solution h2 {
+    font-size: 3.654rem;
+  }
+  section.our-solution .el-btn {
+    padding-left: 3.024rem;
+    padding-right: 3.024rem;
+  }
+}
+
 footer.site-footer {
   background-color: #B8DFF0;
   padding-top: 0.63rem;

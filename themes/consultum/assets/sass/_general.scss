@@ -80,3 +80,48 @@ html {
     font-size: 16px;
   }
 }
+
+/* --------------- fix size END ----------- */
+
+h2 {
+  font-family: Work Sans;
+  font-size: 5.04rem;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+@media screen and (max-width: 600px) {
+  h2 {
+    font-size: 3rem !important;
+    overflow-wrap: break-word;
+  }
+}
+
+.highlight-blue {
+  background-color: #B8DFF0;
+  border-radius: 3.15rem;
+  color: #6373b5;
+  font-style: italic;
+  padding: 0 1.89rem 0 0.63rem;
+  font-family: Work Sans, sans-serif;
+}
+
+.check-mark-tick {
+  position: relative;
+  font-family: Work Sans, sans-serif;
+  text-align: left;
+  padding-left: 2.52rem;
+
+  &:before {
+    left: 0;
+    top: 0.189rem;
+    content: "";
+    width: 1.575rem;
+    height: 1.512rem;
+    background-image: url(./assets/img/check.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+  }
+}

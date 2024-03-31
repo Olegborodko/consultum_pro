@@ -71,5 +71,5 @@ $index = 0;
       </div>
     </nav>
   </div>
-  <a href="#" class="div-12">contact us</a>
+  <?php el_btn("#", "contact us", "contact-us-btn") ?>
 </section>

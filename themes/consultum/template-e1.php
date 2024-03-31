@@ -181,6 +181,11 @@ $img_src = get_template_directory_uri() . "/assets/img/";
     </div>
   </div>
 </section>
+<section class="prerequisites-for-reports">
+<h2>
+Other than the essential necessities for treaty trader <span>visa E1</span>, here are the prerequisites for your reports:
+</h2>
+</section>
 
 <?php
 get_footer();

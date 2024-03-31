@@ -77,7 +77,7 @@ $img_src = get_template_directory_uri() . "/assets/img/";
       <?php el_consultum_logo(); ?>
       <div class="subscribe-block">
         <div class="title">Subscribe to news!</div>
-        <a href="" class="subscribe-btn">Subscribe</a>
+        <?php el_btn("#", "Subscribe", "subscribe-btn"); ?>
       </div>
     </div>
   </div>

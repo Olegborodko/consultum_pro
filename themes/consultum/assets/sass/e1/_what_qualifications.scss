@@ -4,7 +4,6 @@ section.what-qualifications {
     font-size: 5.04rem;
     font-weight: 600;
     line-height: 120%;
-    letter-spacing: 0%;
     text-align: left;
 
     span {
@@ -18,13 +17,12 @@ section.what-qualifications {
     font-size: 1.26rem;
     font-weight: 400;
     line-height: 160%;
-    letter-spacing: 0%;
     text-align: left;
     color: #666B81;
     max-width: 54.432rem;
   }
 
-  h3{
+  h3 {
     font-weight: 600;
     color: #6373B5;
     font-family: Work Sans;
@@ -33,24 +31,17 @@ section.what-qualifications {
     padding: 1.89rem 0 1.26rem;
   }
 
-  .what-qualifications-block{
+  .what-qualifications-block {
     display: flex;
   }
 
   @media screen and (max-width: 900px) {
-    .what-qualifications-block{
+    .what-qualifications-block {
       flex-direction: column;
     }
 
-    h2{
+    h2 {
       padding-bottom: 20px;
-    }
-  }
-
-  @media screen and (max-width: 600px) {
-    h2{
-      font-size: 3.654rem;
-      overflow-wrap: break-word;
     }
   }
 }

@@ -46,7 +46,7 @@
   }
 
 
-  .div-12 {
+  .contact-us-btn {
     justify-content: center;
     border-radius: 6.3rem;
     box-shadow: 0rem 0.63rem 2.835rem 0rem rgba(82, 100, 152, 0.25);
@@ -144,7 +144,7 @@
       margin: auto 0;
     }
 
-    .div-12 {
+    .contact-us-btn {
       order: 2;
       display: inline-block;
       margin: auto 0.315rem auto auto;
@@ -197,13 +197,15 @@
   // dropdown-menu
 
   @media (max-width: 620px) {
+
     //620
-    .div-12 {
+    .contact-us-btn {
       display: none;
     }
   }
 
   @media (max-width: 420px) {
+
     //420
     .el-consultum-logo .div-3 {
       font-size: 1rem;

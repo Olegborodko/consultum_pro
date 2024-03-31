@@ -1,9 +1,9 @@
 .el-btn {
   display: inline-block;
   position: relative;
-  padding: 1.25rem 2.52rem 1.512rem 2.52rem;
+  padding: 1.25rem 2.142rem;
   border-radius: 6.3rem;
-  background: #6373B5;
+  background-color: #6373B5;
   color: #ffffff;
   font-family: Work Sans, sans-serif;
   font-size: 1.134rem;
@@ -12,4 +12,8 @@
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
+
+  &:hover{
+    color: #ffffff;
+  }
 }

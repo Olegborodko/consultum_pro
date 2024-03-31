@@ -7,7 +7,6 @@ section.what-is-e1 {
     font-size: 5.04rem;
     font-weight: 600;
     line-height: 120%;
-    letter-spacing: 0%;
     text-align: left;
     padding: 0 1.008rem;
 
@@ -22,7 +21,6 @@ section.what-is-e1 {
     font-size: 1.134rem;
     font-weight: 400;
     line-height: 160%;
-    letter-spacing: 0%;
     text-align: left;
     max-width: 50.4rem;
     padding: 1.26rem 1.008rem 1.89rem;
@@ -69,7 +67,6 @@ section.what-is-e1 {
     font-size: 2.016rem;
     font-weight: 600;
     line-height: 120%;
-    letter-spacing: 0%;
     text-align: left;
     text-decoration-line: underline;
 
@@ -82,7 +79,7 @@ section.what-is-e1 {
     .desc {
       &:after {
         left: 110%;
-        
+
         z-index: 1;
       }
     }
@@ -108,10 +105,6 @@ section.what-is-e1 {
   @media screen and (max-width: 600px) {
 
     //600
-    h2 {
-      font-size: 3.654rem;
-    }
-
     .pdf-img {
       width: 60px;
     }

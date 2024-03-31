@@ -251,7 +251,6 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
   font-size: 2.016rem;
   font-weight: 600;
   line-height: 120%;
-  letter-spacing: 0%;
   text-align: left;
 }
 .el-industry-box .div-4 {
@@ -260,7 +259,6 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
   font: 400 1.26rem/2.016rem Work Sans, sans-serif;
   color: #080C1B;
   line-height: 160%;
-  letter-spacing: 0%;
   text-align: left;
 }
 @media screen and (max-width: 600px) {
@@ -272,9 +270,9 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 .el-btn {
   display: inline-block;
   position: relative;
-  padding: 1.25rem 2.52rem 1.512rem 2.52rem;
+  padding: 1.25rem 2.142rem;
   border-radius: 6.3rem;
-  background: #6373B5;
+  background-color: #6373B5;
   color: #ffffff;
   font-family: Work Sans, sans-serif;
   font-size: 1.134rem;
@@ -283,6 +281,9 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
+}
+.el-btn:hover {
+  color: #ffffff;
 }
 
 .testimonials-box {
@@ -483,6 +484,48 @@ html {
     font-size: 16px;
   }
 }
+/* --------------- fix size END ----------- */
+h2 {
+  font-family: Work Sans;
+  font-size: 5.04rem;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+@media screen and (max-width: 600px) {
+  h2 {
+    font-size: 3rem !important;
+    overflow-wrap: break-word;
+  }
+}
+.highlight-blue {
+  background-color: #B8DFF0;
+  border-radius: 3.15rem;
+  color: #6373b5;
+  font-style: italic;
+  padding: 0 1.89rem 0 0.63rem;
+  font-family: Work Sans, sans-serif;
+}
+
+.check-mark-tick {
+  position: relative;
+  font-family: Work Sans, sans-serif;
+  text-align: left;
+  padding-left: 2.52rem;
+}
+.check-mark-tick:before {
+  left: 0;
+  top: 0.189rem;
+  content: "";
+  width: 1.575rem;
+  height: 1.512rem;
+  background-image: url(./assets/img/check.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: absolute;
+}
+
 #masthead section.menu {
   z-index: 1000;
   border-radius: 0rem 0rem 3.15rem 3.15rem;
@@ -527,7 +570,7 @@ html {
   stroke: #b8dff0;
   margin: auto 0;
 }
-#masthead section.menu .div-12 {
+#masthead section.menu .contact-us-btn {
   justify-content: center;
   border-radius: 6.3rem;
   box-shadow: 0rem 0.63rem 2.835rem 0rem rgba(82, 100, 152, 0.25);
@@ -604,7 +647,7 @@ html {
     display: inline-block;
     margin: auto 0;
   }
-  #masthead section.menu .div-12 {
+  #masthead section.menu .contact-us-btn {
     order: 2;
     display: inline-block;
     margin: auto 0.315rem auto auto;
@@ -648,7 +691,7 @@ html {
   }
 }
 @media (max-width: 620px) {
-  #masthead section.menu .div-12 {
+  #masthead section.menu .contact-us-btn {
     display: none;
   }
 }
@@ -719,7 +762,6 @@ section.banner .google-r-block span {
   font-size: 1.26rem;
   font-weight: 500;
   line-height: 100%;
-  letter-spacing: 0rem;
   text-align: left;
   padding-right: 0.63rem;
 }
@@ -738,7 +780,6 @@ section.banner .trustpilot-block {
   font-size: 1.26rem;
   font-weight: 500;
   line-height: 100%;
-  letter-spacing: 0rem;
   text-align: left;
 }
 section.banner .reviews-block span,
@@ -761,7 +802,6 @@ section.banner .excellent-block span {
   font-size: 1.26rem;
   font-weight: 500;
   line-height: 100%;
-  letter-spacing: 0rem;
   text-align: left;
   display: inline-block;
   padding-bottom: 0.504rem;
@@ -905,7 +945,6 @@ section.business-plans h2 {
   font-size: 5.04rem;
   font-weight: 700;
   line-height: 120%;
-  letter-spacing: 0%;
   text-align: left;
 }
 section.business-plans h2 span {
@@ -941,18 +980,12 @@ section.business-plans .box a {
   font-size: 2.394rem;
   font-weight: 600;
   line-height: 120%;
-  letter-spacing: 0%;
   text-align: left;
   width: 100%;
   max-width: 33.012rem;
 }
 section.business-plans .box a:hover {
   color: #6373B5;
-}
-@media screen and (max-width: 800px) {
-  section.business-plans h2 {
-    font-size: 3.024rem;
-  }
 }
 @media screen and (max-width: 600px) {
   section.business-plans .business-plans-block {
@@ -973,17 +1006,11 @@ section.industry-plans h2 {
   font-size: 5.04rem;
   font-weight: 600;
   line-height: 120%;
-  letter-spacing: 0%;
   text-align: center;
 }
 section.industry-plans h2 span {
   color: #526498;
   font-style: italic;
-}
-@media screen and (max-width: 800px) {
-  section.industry-plans h2 {
-    font-size: 3.024rem;
-  }
 }
 
 section.immigration-busines {
@@ -1000,7 +1027,6 @@ section.immigration-busines h2 {
   font-size: 5.04rem;
   font-weight: 600;
   line-height: 120%;
-  letter-spacing: 0%;
   text-align: center;
   max-width: 62.748rem;
   margin: 0 auto;
@@ -1029,7 +1055,6 @@ section.immigration-busines .i-box {
   font-size: 2.52rem;
   font-weight: 600;
   line-height: 120%;
-  letter-spacing: 0%;
   text-align: center;
   cursor: pointer;
   text-decoration: none;
@@ -1100,11 +1125,6 @@ section.immigration-busines .i-box-small {
     top: initial;
     padding-top: 3.15rem;
     padding-bottom: 5.04rem;
-  }
-}
-@media screen and (max-width: 600px) {
-  section.immigration-busines h2 {
-    font-size: 3.15rem;
   }
 }
 
@@ -1242,7 +1262,6 @@ section.testimonials h2 {
   font-size: 5.04rem;
   font-weight: 600;
   line-height: 120%;
-  letter-spacing: 0%;
   text-align: left;
   padding-bottom: 1.26rem;
 }
@@ -1252,7 +1271,6 @@ section.testimonials .desc {
   font-size: 1.26rem;
   font-weight: 400;
   line-height: 160%;
-  letter-spacing: 0%;
   text-align: left;
   max-width: 44.352rem;
 }
@@ -1334,9 +1352,6 @@ section.testimonials .testimonials-part-2 {
   section.testimonials .testimonials-part-1 {
     flex-direction: column;
   }
-  section.testimonials h2 {
-    font-size: 3.024rem;
-  }
 }
 
 section.frequently-asked {
@@ -1355,7 +1370,6 @@ section.frequently-asked .desc h2 {
   font-size: 5.04rem;
   font-weight: 600;
   line-height: 120%;
-  letter-spacing: 0%;
   text-align: left;
   padding-bottom: 3.15rem;
 }
@@ -1379,7 +1393,6 @@ section.frequently-asked .faq .accordion-body {
   font-size: 1.134rem;
   font-weight: 400;
   line-height: 160%;
-  letter-spacing: 0%;
   text-align: left;
 }
 section.frequently-asked .faq .accordion-item {
@@ -1430,9 +1443,6 @@ section.frequently-asked .faq .accordion-button:not(.collapsed)::after {
     width: 100%;
     height: initial;
   }
-  section.frequently-asked .desc h2 {
-    font-size: 3.024rem;
-  }
 }
 
 section.any-questions {
@@ -1472,7 +1482,6 @@ section.any-questions h2 {
   font-size: 5.04rem;
   font-weight: 600;
   line-height: 5.922rem;
-  letter-spacing: 0%;
   padding: 5.04rem 0 1.26rem;
 }
 section.any-questions .form {
@@ -1524,7 +1533,6 @@ section.any-questions span[data-name=your-email] input {
   font-size: 1.134rem;
   font-weight: 400;
   line-height: 1.323rem;
-  letter-spacing: 0rem;
   text-align: left;
   position: relative;
 }
@@ -1708,7 +1716,6 @@ section.what-is-e1 h2 {
   font-size: 5.04rem;
   font-weight: 600;
   line-height: 120%;
-  letter-spacing: 0%;
   text-align: left;
   padding: 0 1.008rem;
 }
@@ -1721,7 +1728,6 @@ section.what-is-e1 .desc {
   font-size: 1.134rem;
   font-weight: 400;
   line-height: 160%;
-  letter-spacing: 0%;
   text-align: left;
   max-width: 50.4rem;
   padding: 1.26rem 1.008rem 1.89rem;
@@ -1762,7 +1768,6 @@ section.what-is-e1 .pdf-link {
   font-size: 2.016rem;
   font-weight: 600;
   line-height: 120%;
-  letter-spacing: 0%;
   text-align: left;
   text-decoration-line: underline;
 }
@@ -1789,9 +1794,6 @@ section.what-is-e1 .pdf-link span {
   }
 }
 @media screen and (max-width: 600px) {
-  section.what-is-e1 h2 {
-    font-size: 3.654rem;
-  }
   section.what-is-e1 .pdf-img {
     width: 60px;
   }
@@ -1813,7 +1815,6 @@ section.why-select-us h2 {
   font-size: 5.04rem;
   font-weight: 600;
   line-height: 120%;
-  letter-spacing: 0%;
   text-align: center;
 }
 section.why-select-us .delivering-box {
@@ -1872,9 +1873,6 @@ section.why-select-us .boxes .el-why-select-us-box {
   }
 }
 @media screen and (max-width: 600px) {
-  section.why-select-us h2 {
-    font-size: 3.654rem;
-  }
   section.why-select-us .delivering-box {
     flex-direction: column;
     padding: 1.764rem 2rem;
@@ -1886,7 +1884,6 @@ section.what-qualifications h2 {
   font-size: 5.04rem;
   font-weight: 600;
   line-height: 120%;
-  letter-spacing: 0%;
   text-align: left;
 }
 section.what-qualifications h2 span {
@@ -1898,7 +1895,6 @@ section.what-qualifications .desc {
   font-size: 1.26rem;
   font-weight: 400;
   line-height: 160%;
-  letter-spacing: 0%;
   text-align: left;
   color: #666B81;
   max-width: 54.432rem;
@@ -1920,12 +1916,6 @@ section.what-qualifications .what-qualifications-block {
   }
   section.what-qualifications h2 {
     padding-bottom: 20px;
-  }
-}
-@media screen and (max-width: 600px) {
-  section.what-qualifications h2 {
-    font-size: 3.654rem;
-    overflow-wrap: break-word;
   }
 }
 
@@ -1950,7 +1940,6 @@ section.our-solution .desc {
   font-size: 1.26rem;
   font-weight: 400;
   line-height: 160%;
-  letter-spacing: 0%;
   text-align: left;
   margin-bottom: 2.268rem;
   max-width: 28.35rem;
@@ -1961,7 +1950,6 @@ section.our-solution h3 {
   font-size: 2.016rem;
   font-weight: 600;
   line-height: 160%;
-  letter-spacing: 0%;
   text-align: left;
   padding-bottom: 0.63rem;
 }
@@ -1971,7 +1959,6 @@ section.our-solution .box h4 {
   font-size: 1.638rem;
   font-weight: 600;
   line-height: 120%;
-  letter-spacing: 0%;
   text-align: left;
 }
 section.our-solution .box .text {
@@ -1980,7 +1967,6 @@ section.our-solution .box .text {
   font-size: 1.26rem;
   font-weight: 400;
   line-height: 160%;
-  letter-spacing: 0%;
   text-align: left;
 }
 section.our-solution .document {
@@ -1992,7 +1978,6 @@ section.our-solution .document h3 {
   font-size: 2.52rem;
   font-weight: 600;
   line-height: 120%;
-  letter-spacing: 0%;
   text-align: center;
   margin-bottom: 1.26rem;
 }
@@ -2079,9 +2064,6 @@ section.our-solution .blocks .box {
     padding-left: 1.26rem;
     padding-right: 1.26rem;
   }
-  section.our-solution h2 {
-    font-size: 3.654rem;
-  }
   section.our-solution .el-btn {
     padding-left: 3.024rem;
     padding-right: 3.024rem;
@@ -2139,7 +2121,6 @@ footer.site-footer .buttom {
   font-size: 0.882rem;
   font-weight: 300;
   line-height: 1.008rem;
-  letter-spacing: 0%;
   text-align: center;
   display: flex;
   align-items: center;
@@ -2171,17 +2152,9 @@ footer.site-footer .center-block .subscribe-block .subscribe-btn {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 1.512rem 2.52rem 1.512rem 2.52rem;
-  border-radius: 6.3rem;
   background: #6373B5;
   color: #ffffff;
-  font-family: Work Sans;
-  font-size: 1.134rem;
-  font-weight: 600;
-  letter-spacing: 4%;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: none;
+  font-family: Work Sans, sans-serif;
 }
 footer.site-footer .center-block .el-consultum-logo {
   padding: 2.394rem 0;

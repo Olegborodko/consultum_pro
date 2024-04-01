@@ -1178,13 +1178,13 @@ section.how-it-works .description {
   text-align: center;
   max-width: 43.47rem;
   margin: 0 auto;
-  padding: 2.52rem 0 5.04rem;
+  padding: 3rem 0 4.4rem;
 }
 section.how-it-works .description span {
   font-weight: 700;
 }
 section.how-it-works .space {
-  height: 0.063rem;
+  height: 0.1rem;
   background: radial-gradient(0.315rem 0.063rem, #EBECF2 100%, transparent 100%) 0 0/0.945rem 100%;
 }
 section.how-it-works .steps-block {
@@ -1449,7 +1449,7 @@ section.frequently-asked .faq .accordion-button:not(.collapsed)::after {
 }
 @media screen and (max-width: 600px) {
   section.frequently-asked .desc img {
-    left: -16px;
+    left: -1.008rem;
     width: 100%;
     height: initial;
   }
@@ -2123,13 +2123,13 @@ section.prerequisites-for-reports .boxes ul li {
     align-items: center;
   }
   section.prerequisites-for-reports h2 {
-    padding-bottom: 40px;
+    padding-bottom: 2.52rem;
   }
   section.prerequisites-for-reports ul.first {
-    margin-bottom: 40px;
+    margin-bottom: 2.52rem;
   }
   section.prerequisites-for-reports .boxes img.passport {
-    margin: 0 0 10px 0;
+    margin: 0 0 0.63rem 0;
   }
 }
 @media screen and (max-width: 600px) {
@@ -2137,6 +2137,10 @@ section.prerequisites-for-reports .boxes ul li {
     width: 100%;
     height: initial;
   }
+}
+
+section.how-it-works.e1-page {
+  padding: 2.52rem 0 5.04rem;
 }
 
 footer.site-footer {

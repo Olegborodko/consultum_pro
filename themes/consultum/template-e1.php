@@ -204,6 +204,167 @@ $img_src = get_template_directory_uri() . "/assets/img/";
     </div>
   </div>
 </section>
+<section class="frequently-asked">
+  <div class="custom-containder inside-block">
+    <div class="desc">
+      <h2>Frequently Asked Questions</h2>
+      <img alt="faq" src="<?= $img_src ?>/faq.webp" />
+    </div>
+    <div class="faq">
+      <?php
+      $faq_data = array();
+      $faq_data[0]['title'] = 'What is an E-1 visa?';
+      $faq_data[0]['text'] = '';
+
+      $faq_data[1]['title'] = 'What are the E1 Visa requirements?';
+      $faq_data[1]['text'] = '';
+
+      $faq_data[2]['title'] = 'What sections will be included in the business plan?';
+      $faq_data[2]['text'] = '';
+
+      $faq_data[3]['title'] = 'Who is eligible to participate in the E-1 visa program?';
+      $faq_data[3]['text'] = '';
+
+      $faq_data[4]['title'] = 'How much does an ConsultumPro business plan cost? ';
+      $faq_data[4]['text'] = '';
+
+      $faq_data[5]['title'] = 'But will you do if USCIS rejects my application?';
+      $faq_data[5]['text'] = 'Our success rate is over 95%, so there is very little chance of this, but if your first application is rejected, we will make the necessary changes to the document free of charge.';
+
+      ?>
+
+      <div class="accordion" id="accordionExample">
+        <?php
+        $uniqueId = uniqid();
+        $expanded = true;
+
+        foreach ($faq_data as $key => $value) {
+          ?>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo<?= $key ?><?= $uniqueId ?>">
+              <button class="accordion-button <?php echo $expanded ? '' : 'collapsed' ?>" type="button"
+                data-bs-toggle="collapse" data-bs-target="#collapseTwo<?= $key ?><?= $uniqueId ?>"
+                aria-expanded="<?php echo $expanded ? 'true' : 'false' ?>"
+                aria-controls="collapseTwo<?= $key ?><?= $uniqueId ?>">
+                <?= $value['title'] ?>
+              </button>
+            </h2>
+            <div id="collapseTwo<?= $key ?><?= $uniqueId ?>"
+              class="accordion-collapse collapse <?php echo $expanded ? 'show' : '' ?>"
+              aria-labelledby="headingTwo<?= $key ?><?= $uniqueId ?>" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <?= $value['text'] ?>
+              </div>
+            </div>
+          </div>
+
+
+          <?php
+          $expanded = false;
+        }
+        ?>
+
+      </div>
+    </div>
+  </div>
+</section>
+<section class="how-it-works e1-page">
+  <div class="custom-containder">
+    <div class="title">
+      <div class="text">How it works</div>
+      <div class="plan">Your business plan in <span>4 easy steps</span></div>
+    </div>
+    <div class="description">
+      <span>ConsultumPro</span> team will work closely with you and provide essential guidance from the beginning to the
+      end of the process.
+    </div>
+    <div class="space"></div>
+    <div class="steps-block">
+      <div class="step">
+        <div class="after-img">
+          <img alt="01 Step" src="<?= $img_src ?>/step_1.svg">
+        </div>
+        <div class="desc">
+          Fill out and submit our online form
+        </div>
+      </div>
+      <div class="step">
+        <div class="after-img">
+          <img alt="02 Step" src="<?= $img_src ?>/step_2.svg">
+        </div>
+        <div class="desc">
+          Expert will be in touch to discuss the particulars of your business plan.
+        </div>
+      </div>
+      <div class="step">
+        <div class="after-img">
+          <img alt="03 Step" src="<?= $img_src ?>/step_3.svg">
+        </div>
+        <div class="desc">
+          We will issue a draft of your business days within 10-15 days.
+        </div>
+      </div>
+      <div class="step">
+        <div class="after-img">
+          <img alt="04 Step" src="<?= $img_src ?>/step_4.svg">
+        </div>
+        <div class="desc">
+          After carefully considering your clients and making all necessary revisions, we will issue the final version
+          of your business plan.
+        </div>
+      </div>
+    </div>
+    <div class="bottom-block">
+      <?php el_btn("#", "Our online form"); ?>
+    </div>
+  </div>
+</section>
+<section class="any-questions">
+  <div class="any-questions-block">
+    <div class="get-in">
+      <h2>Any questions?</h2>
+      <div>Get in Touch!</div>
+    </div>
+    <div class="form">
+      <?php echo do_shortcode('[contact-form-7 id="f9a6808" title="home_page"]'); ?>
+    </div>
+  </div>
+</section>
+<section class="testimonials">
+  <div class="custom-containder">
+    <div class="testimonials-part-1">
+      <div class="left">
+        <h2>Testimonials</h2>
+        <div class="desc">
+          Our clients are our top priority. We do absolutely everything within our power to exceed our clients’
+          expectations
+          in every conceivable way.
+        </div>
+      </div>
+      <div class="right">
+        <div class="excellent-review">
+          <div class="div-2">
+            <div class="div-3">Excellent</div>
+            <img alt="stars" loading="lazy" src="<?= $img_src ?>/stars.svg" class="img" />
+          </div>
+          <div class="div-4">
+            <div class="div-5">Based on</div>
+            <div class="div-6">2,156 reviews</div>
+          </div>
+          <img alt="google" loading="lazy" src="<?= $img_src ?>/google.svg" class="img-2" />
+        </div>
+      </div>
+    </div>
+    <div class="testimonials-part-2">
+      <?php
+      for ($x = 0; $x <= 3; $x++) {
+        el_testimonials_box();
+      }
+      ?>
+    </div>
+  </div>
+</section>
 
 <?php
 get_footer();

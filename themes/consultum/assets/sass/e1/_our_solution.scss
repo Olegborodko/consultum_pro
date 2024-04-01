@@ -115,6 +115,7 @@ section.our-solution {
     background-size: 36.981rem 32.13rem;
     background-repeat: no-repeat;
     background-position: bottom center;
+    padding-bottom: 1.89rem;
   }
 
   .blocks {
@@ -178,6 +179,10 @@ section.our-solution {
     .el-btn {
       padding-left: 3.024rem;
       padding-right: 3.024rem;
+    }
+
+    .our-solution-block {
+      background-image: none;
     }
   }
 }

@@ -182,9 +182,27 @@ $img_src = get_template_directory_uri() . "/assets/img/";
   </div>
 </section>
 <section class="prerequisites-for-reports">
-<h2>
-Other than the essential necessities for treaty trader <span>visa E1</span>, here are the prerequisites for your reports:
-</h2>
+  <div class="custom-containder">
+    <h2>
+      Other than the essential necessities for treaty trader <span class="highlight-blue">visa E1</span>, here are the prerequisites for your
+      reports:
+    </h2>
+    <div class="boxes">
+      <ul class="first">
+        <li class="check-mark-tick">Visa duplicate (half year legitimacy past your remaining period)</li>
+        <li class="check-mark-tick">Structure DS-160 affirmation page</li>
+        <li class="check-mark-tick">Structure DS-156E Nonimmigrant Treaty Trader with an official's mark</li>
+        <li class="check-mark-tick">Installment affirmation for the Entry Permit installment</li>
+      </ul>
+      <img class="passport" src="<?= $img_src ?>/passport.webp" alt="passport">
+      <ul class="last">
+        <li class="check-mark-tick">Variety ID photo 5 X 5 cm. It ought to be recent and obviously show your face</li>
+        <li class="check-mark-tick">An introductory letter to sum up E1 Entry Permit necessities with subtleties of how your selling can satisfy every one of them</li>
+        <li class="check-mark-tick">Copies of authoritative records</li>
+        <li class="check-mark-tick">Other strong documentation</li>
+      </ul>
+    </div>
+  </div>
 </section>
 
 <?php

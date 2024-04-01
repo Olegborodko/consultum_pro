@@ -426,6 +426,12 @@ div.custom-containder {
   margin: 0 auto;
 }
 
+div.custom-containder-plus {
+  max-width: 120.96rem;
+  padding: 0 1.008rem;
+  margin: 0 auto;
+}
+
 .g-arrow-right-top {
   background-image: url("./assets/img/industry_arrow_top.svg");
   background-size: 100%;
@@ -1890,6 +1896,9 @@ section.why-select-us .boxes .el-why-select-us-box {
   }
 }
 
+section.what-qualifications {
+  padding-bottom: 4.41rem;
+}
 section.what-qualifications h2 {
   font-family: Work Sans;
   font-size: 5.04rem;
@@ -2141,6 +2150,30 @@ section.prerequisites-for-reports .boxes ul li {
 
 section.how-it-works.e1-page {
   padding: 2.52rem 0 5.04rem;
+}
+
+section.our-clients {
+  padding-bottom: 5.04rem;
+}
+section.our-clients h2 {
+  padding: 2.52rem 0 2.52rem;
+  text-align: center;
+}
+section.our-clients .our-clients-block {
+  display: flex;
+  justify-content: space-between;
+}
+section.our-clients .our-clients-block a {
+  cursor: initial;
+}
+section.our-clients .our-clients-block img {
+  max-width: 15.12rem;
+}
+@media screen and (max-width: 1000px) {
+  section.our-clients .our-clients-block {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 footer.site-footer {

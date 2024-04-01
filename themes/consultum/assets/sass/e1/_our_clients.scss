@@ -1,0 +1,30 @@
+section.our-clients {
+  padding-bottom: 5.04rem;
+
+  h2 {
+    padding: 2.52rem 0 2.52rem;
+    text-align: center;
+  }
+
+  .our-clients-block {
+    display: flex;
+    justify-content: space-between;
+
+    a {
+      cursor: initial;
+    }
+
+    img {
+      max-width: 15.12rem;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+
+    //1000
+    .our-clients-block {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}

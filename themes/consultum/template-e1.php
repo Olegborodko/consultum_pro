@@ -184,7 +184,8 @@ $img_src = get_template_directory_uri() . "/assets/img/";
 <section class="prerequisites-for-reports">
   <div class="custom-containder">
     <h2>
-      Other than the essential necessities for treaty trader <span class="highlight-blue">visa E1</span>, here are the prerequisites for your
+      Other than the essential necessities for treaty trader <span class="highlight-blue">visa E1</span>, here are the
+      prerequisites for your
       reports:
     </h2>
     <div class="boxes">
@@ -197,7 +198,8 @@ $img_src = get_template_directory_uri() . "/assets/img/";
       <img class="passport" src="<?= $img_src ?>/passport.webp" alt="passport">
       <ul class="last">
         <li class="check-mark-tick">Variety ID photo 5 X 5 cm. It ought to be recent and obviously show your face</li>
-        <li class="check-mark-tick">An introductory letter to sum up E1 Entry Permit necessities with subtleties of how your selling can satisfy every one of them</li>
+        <li class="check-mark-tick">An introductory letter to sum up E1 Entry Permit necessities with subtleties of how
+          your selling can satisfy every one of them</li>
         <li class="check-mark-tick">Copies of authoritative records</li>
         <li class="check-mark-tick">Other strong documentation</li>
       </ul>
@@ -362,6 +364,19 @@ $img_src = get_template_directory_uri() . "/assets/img/";
         el_testimonials_box();
       }
       ?>
+    </div>
+  </div>
+</section>
+<section class="our-clients">
+  <div class="custom-containder-plus">
+    <h2>Our clients</h2>
+    <div class="our-clients-block">
+      <a href="#"><img alt="our client 1" src="<?= $img_src ?>/e1/our_client_1.svg"></a>
+      <a href="#"><img alt="our client 2" src="<?= $img_src ?>/e1/our_client_2.svg"></a>
+      <a href="#"><img alt="our client 3" src="<?= $img_src ?>/e1/our_client_3.svg"></a>
+      <a href="#"><img alt="our client 4" src="<?= $img_src ?>/e1/our_client_4.svg"></a>
+      <a href="#"><img alt="our client 5" src="<?= $img_src ?>/e1/our_client_5.svg"></a>
+      <a href="#"><img alt="our client 6" src="<?= $img_src ?>/e1/our_client_6.svg"></a>
     </div>
   </div>
 </section>

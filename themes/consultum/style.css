@@ -97,7 +97,6 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
   font-weight: 600;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 0.06048rem;
 }
 .el-phone-block .phone-text {
   text-align: left;
@@ -277,7 +276,6 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
   font-family: Work Sans, sans-serif;
   font-size: 1.134rem;
   font-weight: 600;
-  letter-spacing: 4%;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
@@ -412,6 +410,28 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
   color: var(--text, #666b81);
   margin-top: 0.882rem;
   font: 400 1.134rem/1.827rem Work Sans, sans-serif;
+}
+
+.el-btn-video {
+  display: inline-block;
+  position: relative;
+  padding: 0.378rem 0.378rem 0.378rem 2.142rem;
+  border-radius: 6.3rem;
+  background: #ffffff;
+  color: #526498;
+  font-family: Work Sans, sans-serif;
+  font-size: 1.26rem;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-shadow: 0rem 0.63rem 2.835rem 0rem rgba(99, 115, 181, 0.25);
+  backdrop-filter: blur(1.26rem);
+  background: rgba(255, 255, 255, 0.6);
+}
+.el-btn-video img {
+  width: 3.78rem;
+  height: initial;
 }
 
 body,
@@ -1709,7 +1729,6 @@ section.banner-e1 .home {
 }
 section.banner-e1 .slash {
   font-family: Work Sans, sans-serif;
-  letter-spacing: 0.03528rem;
 }
 section.banner-e1 .page {
   font-family: Work Sans, sans-serif;
@@ -2151,6 +2170,17 @@ section.prerequisites-for-reports .boxes ul li {
 section.how-it-works.e1-page {
   padding: 2.52rem 0 5.04rem;
 }
+section.how-it-works .bottom-block {
+  display: flex;
+  justify-content: center;
+  gap: 1.638rem;
+}
+@media screen and (max-width: 600px) {
+  section.how-it-works .bottom-block {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
 section.our-clients {
   padding-bottom: 5.04rem;
@@ -2174,6 +2204,41 @@ section.our-clients .our-clients-block img {
     flex-wrap: wrap;
     justify-content: center;
   }
+}
+
+section.text-seo {
+  background-color: #EBECF2;
+  padding-top: 5.04rem;
+}
+section.text-seo .blocks {
+  max-width: 87.57rem;
+  padding: 0 1.008rem;
+  margin: 0 auto;
+}
+section.text-seo .title {
+  font-family: Work Sans, sans-serif;
+  font-size: 1.638rem;
+  font-weight: 600;
+  line-height: 120%;
+  text-align: left;
+  width: 45rem;
+  margin-right: 3.15rem;
+}
+section.text-seo .text {
+  color: #666B81;
+  font-family: Work Sans, sans-serif;
+  font-size: 1.134rem;
+  font-weight: 400;
+  line-height: 160%;
+  text-align: left;
+  max-width: 63rem;
+}
+section.text-seo .box {
+  display: flex;
+  padding-bottom: 4.41rem;
+}
+section.text-seo .more-text {
+  display: none;
 }
 
 footer.site-footer {

@@ -318,6 +318,7 @@ $img_src = get_template_directory_uri() . "/assets/img/";
       </div>
     </div>
     <div class="bottom-block">
+      <?php el_btn_video("#", "Watch the video"); ?>
       <?php el_btn("#", "Our online form"); ?>
     </div>
   </div>
@@ -378,6 +379,63 @@ $img_src = get_template_directory_uri() . "/assets/img/";
       <a href="#"><img alt="our client 5" src="<?= $img_src ?>/e1/our_client_5.svg"></a>
       <a href="#"><img alt="our client 6" src="<?= $img_src ?>/e1/our_client_6.svg"></a>
     </div>
+  </div>
+</section>
+<section class="text-seo">
+  <div class="blocks">
+
+    <?php
+    $seo_data = array();
+    $seo_data[0]['title'] = 'Business Plan EB1 Visa for USA';
+    $seo_data[0]['text'] = 'People with advanced skills in education, business, and science can apply for an EB1 visa and perform national duty in the United States. Also, they should be able to demonstrate their extraordinary talent through documentation. But, proving your abilities and achievements in favor of the national level requires extensive documents. Your employment applications won’t be enough to complete your immigration process. That’s why EB1 visa processing time is months and even years. During this time, you have to prove to the government your capabilities in the area of expertise. The government will carefully review the evidence to determine your qualification for the EB1 for business owners.
+    In most cases, government officials will ask you to demonstrate your achievement in a particular field. If you are a renowned entrepreneur or businessman, you should create a business plan that will show your capabilities. Furthermore, you must have at least one year of experience in the last three years before applying for the visa. Moreover, you have to claim that you were working under the same employer during the time. Keep in mind that you must show your competency while working with a U.S. employer. This means that the employer should be a U.S. citizen and have a huge business within the country or internationally. Also, you can work with a subsidiary or an affiliate to apply for a foreign investment visa program.';
+
+    $seo_data[1]['title'] = 'How to Get an EB1 Visa?';
+    $seo_data[1]['text'] = 'Only three types of professionals can apply for an EB1 business visas. They should be experts and must have remarkable achievements in the field. The professions in which you should have extraordinary abilities and expertise should include education, arts, sciences, athletics, and business. With the help of the documents, you have to prove your achievements. Let’s explore more about the people who can meet EB1 visa criteria.
+    An eligible person should have an international or national award in their field of profession. They should either perform as an individual or have a team. In this condition, the government officials will interview the team or company that they have been a part of to ensure their contribution. Furthermore, they should have evidence about their extraordinary performance in the field.
+    Moreover, they should be a part of a corporation, group, or association with high achievement in the field. Their membership with a small group of businessmen or other groups won’t count. Instead, the corporation should be large, and they must have a major role for its popularity.
+    Also, they can apply for EB1 visa USA after getting published by a major media or magazine as a business tycoon or businessman. Publication in local press won’t make them eligible for visa approval. They must have notable contribution and achievement for running a profitable enterprise as well. The government officials will evaluate their profiles before making any decision.
+    The EB1 extraordinary ability business visa is only applicable for qualified and renowned businessmen and entrepreneur. If you are one of them, you should file your application to the U.S. visa department. But, filing an EB1 visa application is a complicated process. You might need professionals help to get the documents ready and create a business plan.';
+
+    $seo_data[2]['title'] = 'Who Qualifies for EB1 Category?';
+    $seo_data[2]['text'] = 'Applying for EB1 visa to green card requires extensive application process. Also, you have to meet each and every criteria mentioned by the U.S. immigration office. If you are a manager or executive in a multinational company with extraordinary skills and capabilities, you can apply for EB1 category. But, to qualify the immigration process and gain legal permanent EB1 visa requirements you must demonstrate your skills.
+    If you want to learn how to get an EB1 visa as a multinational executive and manager, you should know the criteria mentioned by the U.S. government. But, while applying in the business field you should meet additional requirements. For instance, you should create a professional business plan and share it with the immigration office with your application. They will review the EB1 business plan to determine whether you are eligible or not. Furthermore, you will also need initial investment for your new business that you will start in the United States.
+    If you work in a foreign company as an executive or a manager, you should show your work status. Also, the foreign company should be multinational and have good reputation in the global market. On top of that, you should have a working experience for at least a year within a period of three years prior to the application. One more thing to consider is that you don’t need labor certification to apply for EB1 visa. Instead, your employer should file a petition with the USCIS.';
+
+    $seo_data[3]['title'] = 'What Papers are Needed for EB1?';
+    $seo_data[3]['text'] = 'Once USCIS evaluates the petition and application, they will contact the applicant about the progress. If you receive a green signal from the department, you can visit National Visa Center for the remaining process. However, if they reject your application, you can’t work with that organization as a foreign worker. Let’s say if USCIS approve your application, they will transfer your case to the NVC. The NVC will contact you for extensive documents about your eligibility and qualifications.
+    Now you have to complete the application for the EB1 visa and send it to the U.S. Consulate or Embassy. The Embassy will process your application and verify your documents. They might also ask you for supporting documents in various cases to evaluate your case in detail.
+    How hard is it to get an EB-1 visa?
+    Starting an EB1 extraordinary ability business involves multiple steps and extensive documents requirements. Furthermore, completing the process for EB1 category visa might take up to months and even years. To understand the process in a better way, you can divide it into two major parts. The first part is receiving labor certification and other documentation to complete the petitions. Meanwhile, the other process starts after the approval from the immigration office. During this process, you have to demonstrate your capabilities to the officials.
+    If you are applying for EB1 extraordinary ability business, you have to send a petition on your behalf because there won’t be any employer. Furthermore, you must have a business plan to support your idea or abilities. A business plan is essential when applying for EB1 for business owners. You have to show your compatibility. But, the business plan in this process might be different than ordinary business plan because of different business goal and position. In this condition, you won’t share the business plan to investor, but you have to show your compatibility as a business owner.
+    Once the USCIS receives this type of EB1 visa, they will investigate the plan to ensure that whether it meets with the U.S. market. Furthermore, the officials investigating your case for visa EB1 USA will include business experts. They will carefully investigate your expertise in the field.';
+
+    $seo_data[4]['title'] = 'Benefits for Choosing OGS Capital for Foreign Investment Visa Program';
+    $seo_data[4]['text'] = 'Are you a businessman with high skills and capabilities? If yes, then you should apply for investment visa. Do you want to learn what is investment visa for USA? It is an EB1 visa that U.S. Embassy offers to people with extra abilities and capabilities. People holding investment visa serve the country by creating job opportunities and economic sustainability.
+    But, applying for a business EB1 visa for USA is a time consuming process and requires expertise. Even if you hire a professional team to help you with the process, you have to handle high EB1 Visa cost. The team will complete the application for you and handle the procedure. But, paying high cost to apply for the EB1 visa can be expensive. Instead, you should hire professionals to take care of critical documents and process on your behalf.
+    For instance, you can hire a professional team to create EB1 visa business plan. They will create a personalized eb1 business visa template according to your application so you can get instant approval. OGS Capital is a company that offers expert writers to the businessmen. These writers can create different types of business plans for entrepreneurs. If you want more information about how OGS Capital can help you with EB1 visa for USA, you should contact us and talk with our professional teams.';
+
+    $max_length = 200;
+
+    foreach ($seo_data as $key => $value) {
+      ?>
+
+      <div class="box">
+        <div class="title">
+          <?= $value['title'] ?>
+        </div>
+        <div class="text less-text">
+          <?= mb_substr($value['text'], 0, $max_length) . '...' ?>
+        </div>
+        <div class="text more-text">
+          <?= $value['text'] ?>
+        </div>
+      </div>
+
+      <?php
+    }
+    ?>
+
   </div>
 </section>
 

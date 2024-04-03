@@ -19,6 +19,7 @@ require_once get_template_directory() . "/elements/btn/index.php";
 require_once get_template_directory() . "/elements/testimonials_box/index.php";
 require_once get_template_directory() . "/elements/box_why_select_us/index.php";
 require_once get_template_directory() . "/elements/btn_video/index.php";
+require_once get_template_directory() . "/elements/btn_less_more/index.php";
 
 ?>
 <!doctype html>

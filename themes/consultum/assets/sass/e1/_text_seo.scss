@@ -1,11 +1,15 @@
 section.text-seo {
   background-color: #EBECF2;
-  padding-top: 5.04rem; //80
+  padding: 5.04rem 0;
+  text-align: center;
 
   .blocks {
     max-width: 87.57rem; //1390
     padding: 0 1.008rem;
     margin: 0 auto;
+    height: 106px;
+    overflow: hidden;
+    transition: height 0.5s;
   }
 
   .title {
@@ -28,12 +32,37 @@ section.text-seo {
     max-width: 63rem; //1000
   }
 
-  .box{
+  .box {
     display: flex;
     padding-bottom: 4.41rem;
   }
 
-  .more-text{
-    display: none;
+  .el-btn-less-more {}
+
+  // .collapse{
+  //   display:     block;
+  //   visibility:  visible;
+  //   overflow:    hidden;
+  //   min-height:  60px; // whatever you want here
+  //   height:      0; // if you want it to start collapsed, you need this, else remove this
+
+  //   &.in{
+  //     height: auto;
+  //   }
+  // }
+
+  .collapse[aria-expanded="false"] {
+    height: 42px !important;
+    overflow: hidden;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
   }
+
+  .collapsing[aria-expanded="false"] {
+    height: 42px !important;
+  }
+
+
 }

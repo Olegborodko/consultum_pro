@@ -1,4 +1,4 @@
-.el-btn-video {
+.el-btn-less-more {
   display: inline-block;
   position: relative;
   padding: 0.378rem 0.378rem 0.378rem 2.142rem;
@@ -12,8 +12,6 @@
   text-transform: uppercase;
   text-decoration: none;
 
-  // border-radius: 12.6rem;
-
   box-shadow: 0rem 0.63rem 2.835rem 0rem rgba(99, 115, 181, 0.25);
   backdrop-filter: blur(1.26rem);
   background: rgba(255, 255, 255, 0.6);
@@ -22,5 +20,6 @@
     width: 3.78rem;
     height: initial;
     margin-left: 14px;
+    transform: rotate(180deg);
   }
 }
